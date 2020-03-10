@@ -6,7 +6,7 @@ namespace sbmcourse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! abc");
+            Console.WriteLine("Hello World! XYZ");
         }
     }
 }
