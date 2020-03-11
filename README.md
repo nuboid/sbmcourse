@@ -1,7 +1,7 @@
 # sbmcourse
 Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 
-**Materials**
+## **Materials**
 
 Microsoft boek '.NET Microservices Architecture for Containerized .NET'
 [https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf)
@@ -33,6 +33,7 @@ Boek 'Domain Driven Design Quickly'
 Identity Server documentatie
 
 [https://identityserver4.readthedocs.io/en/latest/](https://identityserver4.readthedocs.io/en/latest/)
+
 [http://docs.identityserver.io/en/stable/index.html](http://docs.identityserver.io/en/stable/index.html)
 
 Azure Devops Documentation
@@ -46,7 +47,7 @@ https://docs.microsoft.com/en-us/dotnet/standard/net-standard
 https://hub.docker.com/editions/community/docker-ce-desktop-windows
 https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-too-long-exception
 
-**Git Commands**
+## **Git Commands**
 
     git clone https://github.com/nuboid/sbmcourse.git
     git status
@@ -62,5 +63,5 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjEzMjkwLC02MDIxMzI5MF19
+eyJoaXN0b3J5IjpbLTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
 -->
