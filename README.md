@@ -49,7 +49,8 @@ https://www.infoq.com/minibooks/domain-driven-design-quickly/
 
 Identity Server documentatie
 
-https://identityserver4.readthedocs.io/en/latest/
+https://identityserver4.readthedocs.io/en/latest
+
 http://docs.identityserver.io/en/stable/index.html
 
 
@@ -87,6 +88,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMyOTM2ODUsLTE0Njk1NzEzNTAsLT
-YwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbNTIzMjY4NTI2LC0xNDY5NTcxMzUwLC02MD
+IxMzI5MF19
 -->
