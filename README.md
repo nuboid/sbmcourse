@@ -1,4 +1,4 @@
-# sbmcourse
+# sbmcourse v. 11/03
 Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 
 ## Materials
@@ -66,7 +66,6 @@ https://azuredevopslabs.com
 ## Code Share
 [https://codeshare.io/](https://codeshare.io/)
 
-
 ## Other Links
 
 
@@ -92,6 +91,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mjg4MjYyNywtMTQ2OTU3MTM1MCwtNj
+eyJoaXN0b3J5IjpbLTg0NTU4MzI2MSwtMTQ2OTU3MTM1MCwtNj
 AyMTMyOTBdfQ==
 -->
