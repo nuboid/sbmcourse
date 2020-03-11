@@ -1,5 +1,7 @@
-# v. 11/03
-Architecting Microservices and cross platform apps in .NET Core 3.x on Azure
+# Architecting Microservices and cross platform apps in .NET Core 3.x on Azure
+
+Spring 2020 edition
+version : 11/04
 
 https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-apps-in-net-core-3-x-on-azure
 
@@ -109,6 +111,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI4OTI0OTksLTE0Njk1NzEzNTAsLT
-YwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbMTM1MzIxNDk5LC0xNDY5NTcxMzUwLC02MD
+IxMzI5MF19
 -->
