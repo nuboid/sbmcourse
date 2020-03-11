@@ -4,7 +4,7 @@ Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 **Materials**
 
 Microsoft boek '.NET Microservices Architecture for Containerized .NET'
- [https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf)
+[https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf)
 
 Microsoft boek 'Buidling Cloud Apps with Microsoft Azure'
 [https://download.microsoft.com/download/8/F/4/8F485F6E-EA78-43B5-84DE-1392EAB13779/Microsoft_Press_eBook_Building_Cloud_Apps_with%20Microsoft_Azure_PDF.pdf](https://download.microsoft.com/download/8/F/4/8F485F6E-EA78-43B5-84DE-1392EAB13779/Microsoft_Press_eBook_Building_Cloud_Apps_with%20Microsoft_Azure_PDF.pdf)
@@ -62,5 +62,5 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzAyNTA2NCwtNjAyMTMyOTBdfQ==
+eyJoaXN0b3J5IjpbLTYwMjEzMjkwLC02MDIxMzI5MF19
 -->
