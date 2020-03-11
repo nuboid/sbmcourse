@@ -15,7 +15,7 @@ Latest Blazor templates
 
 https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.1&tabs=visual-studio
 
-Docker Desktop for Windows.
+Docker Desktop for Windows
 
 https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
@@ -89,8 +89,6 @@ https://azuredevopslabs.com
 
 https://docs.microsoft.com/en-us/dotnet/standard/net-standard
 
-https://hub.docker.com/editions/community/docker-ce-desktop-windows
-
 https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-too-long-exception
 
 ## Git Commands
@@ -109,6 +107,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE2NTQ4ODgsLTE0Njk1NzEzNTAsLT
+eyJoaXN0b3J5IjpbLTIwMTU3NzYzMzQsLTE0Njk1NzEzNTAsLT
 YwMjEzMjkwXX0=
 -->
