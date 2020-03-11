@@ -4,16 +4,16 @@ Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 ## **Materials**
 
 Microsoft boek '.NET Microservices Architecture for Containerized .NET'
-[https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf](https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf)
+https://dotnet.microsoft.com/download/e-book/microservices-architecture/pdf
 
 Microsoft boek 'Buidling Cloud Apps with Microsoft Azure'
-[https://download.microsoft.com/download/8/F/4/8F485F6E-EA78-43B5-84DE-1392EAB13779/Microsoft_Press_eBook_Building_Cloud_Apps_with%20Microsoft_Azure_PDF.pdf](https://download.microsoft.com/download/8/F/4/8F485F6E-EA78-43B5-84DE-1392EAB13779/Microsoft_Press_eBook_Building_Cloud_Apps_with%20Microsoft_Azure_PDF.pdf)
+https://download.microsoft.com/download/8/F/4/8F485F6E-EA78-43B5-84DE-1392EAB13779/Microsoft_Press_eBook_Building_Cloud_Apps_with%20Microsoft_Azure_PDF.pdf
 
 Microsoft boek 'Creating Mobile Apps with Xamarin.Forms
-[https://docs.microsoft.com/en-us/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms/)
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/creating-mobile-apps-xamarin-forms
 
-Microsoft boek 'Blazor for [SP.NET](http://asp.net/) Web Forms developers e-book'
-[https://aka.ms/blazor-ebook](https://aka.ms/blazor-ebook)
+Microsoft boek 'Blazor for ASP.NET
+https://aka.ms/blazor-ebook
 
 Website gRPC for WCF Developers
 https://docs.microsoft.com/en-us/dotnet/architecture/grpc-for-wcf-developers
@@ -62,6 +62,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUyNDkyMjIsLTE0Njk1NzEzNTAsLT
-YwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbODU0NjE0MjAsLTE0Njk1NzEzNTAsLTYwMj
+EzMjkwXX0=
 -->
