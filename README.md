@@ -7,6 +7,11 @@ Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 
 https://dotnet.microsoft.com/download/dotnet-core/3.1
 
+Latest Blazor templates
+
+https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.1&tabs=visual-studio
+
+
 ## Materials
 
 Microsoft boek '.NET Microservices Architecture for Containerized .NET'
@@ -96,6 +101,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY0NDkwNTAsLTE0Njk1NzEzNTAsLT
-YwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbMTU0NDAxMDE1OCwtMTQ2OTU3MTM1MCwtNj
+AyMTMyOTBdfQ==
 -->
