@@ -69,7 +69,9 @@ https://azuredevopslabs.com
 
 
 https://docs.microsoft.com/en-us/dotnet/standard/net-standard
+
 https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
 https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-too-long-exception
 
 ## Git Commands
@@ -88,6 +90,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMjY4NTI2LC0xNDY5NTcxMzUwLC02MD
-IxMzI5MF19
+eyJoaXN0b3J5IjpbLTE0MTY0MzU5ODYsLTE0Njk1NzEzNTAsLT
+YwMjEzMjkwXX0=
 -->
