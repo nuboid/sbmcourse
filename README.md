@@ -1,6 +1,8 @@
 # sbmcourse v. 11/03
 Architecting Microservices and cross platform apps in .NET Core 3.x on Azure
 
+https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-apps-in-net-core-3-x-on-azure
+
 ## PC Setup
 
 Visual Studio 2019
@@ -107,6 +109,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMyMTgwOTQsLTE0Njk1NzEzNTAsLT
-YwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbLTkyMTQ5NTM0MCwtMTQ2OTU3MTM1MCwtNj
+AyMTMyOTBdfQ==
 -->
