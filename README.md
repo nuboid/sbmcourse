@@ -15,6 +15,10 @@ Latest Blazor templates
 
 https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.1&tabs=visual-studio
 
+Docker Desktop for Windows.
+
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
 
 ## Materials
 
@@ -105,6 +109,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyMDc4NzQ2LC0xNDY5NTcxMzUwLC02MD
-IxMzI5MF19
+eyJoaXN0b3J5IjpbLTE0MDE2NTQ4ODgsLTE0Njk1NzEzNTAsLT
+YwMjEzMjkwXX0=
 -->
