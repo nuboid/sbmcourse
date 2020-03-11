@@ -1,5 +1,5 @@
 # sbmcourse v. 11/03
-Architecting microservices and cross platform apps in .NET Core 3.x on Azure
+Architecting Microservices and cross platform apps in .NET Core 3.x on Azure
 
 ## PC Setup
 
@@ -107,6 +107,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU3NzYzMzQsLTE0Njk1NzEzNTAsLT
+eyJoaXN0b3J5IjpbLTEyMzMyMTgwOTQsLTE0Njk1NzEzNTAsLT
 YwMjEzMjkwXX0=
 -->
