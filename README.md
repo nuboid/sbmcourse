@@ -3,6 +3,10 @@ Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 
 ## PC Setup
 
+Visual Studio 2019
+
+https://visualstudio.microsoft.com/downloads
+
 .NET Core 3.1.x
 
 https://dotnet.microsoft.com/download/dotnet-core/3.1
@@ -101,6 +105,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDAxMDE1OCwtMTQ2OTU3MTM1MCwtNj
-AyMTMyOTBdfQ==
+eyJoaXN0b3J5IjpbNTMyMDc4NzQ2LC0xNDY5NTcxMzUwLC02MD
+IxMzI5MF19
 -->
