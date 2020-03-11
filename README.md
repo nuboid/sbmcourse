@@ -48,19 +48,19 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 **Git Commands**
 
-git clone https://github.com/nuboid/sbmcourse.git
-git status
-git add .
-git commit -a -m "test"
-git push
-git branch
-git branch "myfeature"
-git checkout "myfeature"
-git push origin "myfeature"
-git push --set-upstream origin "myfeature"
-git push
+    git clone https://github.com/nuboid/sbmcourse.git
+    git status
+    git add .
+    git commit -a -m "test"
+    git push
+    git branch
+    git branch "myfeature"
+    git checkout "myfeature"
+    git push origin "myfeature"
+    git push --set-upstream origin "myfeature"
+    git push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzEyODg3NF19
+eyJoaXN0b3J5IjpbLTYwMjEzMjkwXX0=
 -->
