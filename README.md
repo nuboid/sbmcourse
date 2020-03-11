@@ -1,6 +1,12 @@
 # sbmcourse v. 11/03
 Architecting microservices and cross platform apps in .NET Core 3.x on Azure
 
+## PC Setup
+
+.NET Core 3.1.x
+
+https://dotnet.microsoft.com/download/dotnet-core/3.1
+
 ## Materials
 
 Microsoft boek '.NET Microservices Architecture for Containerized .NET'
@@ -90,6 +96,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAyNjE1NzksLTE0Njk1NzEzNTAsLT
+eyJoaXN0b3J5IjpbLTEzMzY0NDkwNTAsLTE0Njk1NzEzNTAsLT
 YwMjEzMjkwXX0=
 -->
