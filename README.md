@@ -11,6 +11,10 @@ Visual Studio 2019
 
 https://visualstudio.microsoft.com/downloads
 
+Visual Studio Code
+
+https://code.visualstudio.com/download
+
 .NET Core 3.1.x
 
 https://dotnet.microsoft.com/download/dotnet-core/3.1
@@ -111,6 +115,6 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzIxNDk5LC0xNDY5NTcxMzUwLC02MD
-IxMzI5MF19
+eyJoaXN0b3J5IjpbMTc3NjA5MDU4MiwxMzUzMjE0OTksLTE0Nj
+k1NzEzNTAsLTYwMjEzMjkwXX0=
 -->
