@@ -40,8 +40,10 @@ Azure ServiceBus explorer
 
 https://github.com/paolosalvatori/ServiceBusExplorer
 
-Install 
+Install Ubuntu (Linux) on Windows 10
+
+https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows#3-install-ubuntu-for-windows-10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTA3MzU3MywxODA5NTY1NjIyLDczMD
+eyJoaXN0b3J5IjpbLTU3OTAxMjczMiwxODA5NTY1NjIyLDczMD
 k5ODExNl19
 -->
