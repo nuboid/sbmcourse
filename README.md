@@ -116,6 +116,7 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
 Typical workflow
 
 	git branch "branchname"
+	git status
 	git push --set-upstream origin "branchname"
 	//develop ...
 	git add .
@@ -127,7 +128,11 @@ Checkout from a commit
     git checkout 78298273b50fe5be33d9596d6e7e9fa65d4f1895
 
 Creating a new branch
+Delete branches
 
+	git branch -d "branchname"
+	git push origin --delete "branchname"
+	
 **Git UI tooling**
 
 [https://www.syntevo.com/smartgit/](https://www.syntevo.com/smartgit/)
@@ -150,7 +155,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjgzMjcsLTgxNDEyOTU2OSw3MTQwMz
-M2MzMsLTQwODU4MjI0MywtMTEzOTc5MzkzMywxMzUzMjE0OTks
-LTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbLTEwMDQxODk5NzYsLTM1NjgzMjcsLTgxND
+EyOTU2OSw3MTQwMzM2MzMsLTQwODU4MjI0MywtMTEzOTc5Mzkz
+MywxMzUzMjE0OTksLTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
 -->
