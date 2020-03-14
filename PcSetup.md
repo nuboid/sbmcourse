@@ -34,8 +34,12 @@ https://www.postman.com/downloads
 
 Cloudberry Azure storage explorer
 
-https://www.msp360.com/explorer/windows/microsoft-azure.aspx](https://www.msp360.com/explorer/windows/microsoft-azure.aspx)
+https://www.msp360.com/explorer/windows/microsoft-azure.aspx
+
+Azure ServiceBus explorer
+
+https://github.com/paolosalvatori/ServiceBusExplorer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjA0OTY4NywxODA5NTY1NjIyLDczMD
+eyJoaXN0b3J5IjpbLTM4ODE1NTg1OCwxODA5NTY1NjIyLDczMD
 k5ODExNl19
 -->
