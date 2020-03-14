@@ -113,6 +113,15 @@ https://docs.microsoft.com/en-us/xamarin/android/troubleshooting/questions/path-
     git push --set-upstream origin "myfeature"
     git push
     
+Typical workflow
+
+	git branch "branchname"
+	git push --set-upstream origin "branchname"
+	//develop ...
+	git add .
+	git commit -a -m "commitmessage"
+	git push origin
+
 Checkout from a commit
    
     git checkout 78298273b50fe5be33d9596d6e7e9fa65d4f1895
@@ -141,7 +150,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDEyOTU2OSw3MTQwMzM2MzMsLTQwOD
-U4MjI0MywtMTEzOTc5MzkzMywxMzUzMjE0OTksLTE0Njk1NzEz
-NTAsLTYwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbLTM1NjgzMjcsLTgxNDEyOTU2OSw3MTQwMz
+M2MzMsLTQwODU4MjI0MywtMTEzOTc5MzkzMywxMzUzMjE0OTks
+LTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
 -->
