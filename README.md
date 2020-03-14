@@ -117,6 +117,8 @@ Typical workflow
 
 	git branch "branchname"
 	git status
+	git branch -a
+	git checkout "branchname"
 	git push --set-upstream origin "branchname"
 	//develop ...
 	git add .
@@ -160,8 +162,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgwNDU2MzgsLTEwMDQxODk5NzYsLT
-M1NjgzMjcsLTgxNDEyOTU2OSw3MTQwMzM2MzMsLTQwODU4MjI0
-MywtMTEzOTc5MzkzMywxMzUzMjE0OTksLTE0Njk1NzEzNTAsLT
-YwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbLTg0MzkwNDA1LC0xODY4MDQ1NjM4LC0xMD
+A0MTg5OTc2LC0zNTY4MzI3LC04MTQxMjk1NjksNzE0MDMzNjMz
+LC00MDg1ODIyNDMsLTExMzk3OTM5MzMsMTM1MzIxNDk5LC0xND
+Y5NTcxMzUwLC02MDIxMzI5MF19
 -->
