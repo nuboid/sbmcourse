@@ -20,7 +20,10 @@ Docker Desktop for Windows
 
 https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
+DB Browser for SQLite
 
+http://sqlitebrowser.org
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTU2NTYyMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDcwNzIwNjcsMTgwOTU2NTYyMiw3Mz
+A5OTgxMTZdfQ==
 -->
