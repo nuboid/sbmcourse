@@ -11,7 +11,6 @@ namespace MyApplication.DomainModel.DeliveryAggregate
         public string AtDeliveryAddressId { get; set; }
         public string ForDate { get; set; }
         public bool IsPlanned { get; set; }
-        public List<DeliveryPart> DeliverParts { get; set; }
 
         private readonly List<DeliveryPart> _deliveryParts = new List<DeliveryPart>();
 
@@ -37,7 +36,7 @@ namespace MyApplication.DomainModel.DeliveryAggregate
             _deliveryParts.Add(new DeliveryPart
             {
                 Id = Guid.NewGuid().ToString(),
-                ProductIds = productIds,
+                //ProductIds = new List<DeliveryPartProductId>(),
                 Weight = weight,
                 Volume = volume
             });
