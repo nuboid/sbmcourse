@@ -127,6 +127,11 @@ Checkout from a commit
    
     git checkout 78298273b50fe5be33d9596d6e7e9fa65d4f1895
 
+See all branches
+
+	git branch -a
+
+
 Creating a new branch
 Delete branches
 
@@ -155,7 +160,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQxODk5NzYsLTM1NjgzMjcsLTgxND
-EyOTU2OSw3MTQwMzM2MzMsLTQwODU4MjI0MywtMTEzOTc5Mzkz
-MywxMzUzMjE0OTksLTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbLTE4NjgwNDU2MzgsLTEwMDQxODk5NzYsLT
+M1NjgzMjcsLTgxNDEyOTU2OSw3MTQwMzM2MzMsLTQwODU4MjI0
+MywtMTEzOTc5MzkzMywxMzUzMjE0OTksLTE0Njk1NzEzNTAsLT
+YwMjEzMjkwXX0=
 -->
