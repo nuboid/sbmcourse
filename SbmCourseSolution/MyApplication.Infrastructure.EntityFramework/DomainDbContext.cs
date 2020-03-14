@@ -34,6 +34,7 @@ namespace MyApplication.Infrastructure.EntityFramework
         {
             //Set ValueObjects
             modelBuilder.Entity<DeliveryAddress>().OwnsOne(c => c.Address);
+            //modelBuilder.Entity<DeliveryPart>().OwnsOne(c => c.ProductIds);
         }
 
 
