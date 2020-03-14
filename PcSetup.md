@@ -39,7 +39,9 @@ https://www.msp360.com/explorer/windows/microsoft-azure.aspx
 Azure ServiceBus explorer
 
 https://github.com/paolosalvatori/ServiceBusExplorer
+
+Install 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODE1NTg1OCwxODA5NTY1NjIyLDczMD
+eyJoaXN0b3J5IjpbMTY1NTA3MzU3MywxODA5NTY1NjIyLDczMD
 k5ODExNl19
 -->
