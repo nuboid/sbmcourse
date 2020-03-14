@@ -23,7 +23,11 @@ https://hub.docker.com/editions/community/docker-ce-desktop-windows
 DB Browser for SQLite
 
 http://sqlitebrowser.org
+
+NSwag Studio
+
+https://github.com/RicoSuter/NSwag/wiki/NSwagStudio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcwNzIwNjcsMTgwOTU2NTYyMiw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTI0OTA3NzEyNiwxODA5NTY1NjIyLDczMD
+k5ODExNl19
 -->
