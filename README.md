@@ -5,28 +5,6 @@ version : 11/04
 
 https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-apps-in-net-core-3-x-on-azure
 
-## PC Setup
-
-Visual Studio 2019
-
-https://visualstudio.microsoft.com/downloads
-
-Visual Studio Code
-
-https://code.visualstudio.com/download
-
-.NET Core 3.1.x
-
-https://dotnet.microsoft.com/download/dotnet-core/3.1
-
-Latest Blazor templates
-
-https://docs.microsoft.com/en-us/aspnet/core/blazor/get-started?view=aspnetcore-3.1&tabs=visual-studio
-
-Docker Desktop for Windows
-
-https://hub.docker.com/editions/community/docker-ce-desktop-windows
-
 
 ## Materials
 
@@ -160,8 +138,9 @@ https://docs.docker.com/engine/reference/commandline/docker/
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTgwNzA0MywtODQzOTA0MDUsLTE4Nj
-gwNDU2MzgsLTEwMDQxODk5NzYsLTM1NjgzMjcsLTgxNDEyOTU2
-OSw3MTQwMzM2MzMsLTQwODU4MjI0MywtMTEzOTc5MzkzMywxMz
-UzMjE0OTksLTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
+eyJoaXN0b3J5IjpbMzAxMzI4ODU5LC02NzE4MDcwNDMsLTg0Mz
+kwNDA1LC0xODY4MDQ1NjM4LC0xMDA0MTg5OTc2LC0zNTY4MzI3
+LC04MTQxMjk1NjksNzE0MDMzNjMzLC00MDg1ODIyNDMsLTExMz
+k3OTM5MzMsMTM1MzIxNDk5LC0xNDY5NTcxMzUwLC02MDIxMzI5
+MF19
 -->
