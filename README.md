@@ -133,8 +133,6 @@ See all branches
 
 	git branch -a
 
-
-Creating a new branch
 Delete branches
 
 	git branch -d "branchname"
@@ -162,8 +160,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzkwNDA1LC0xODY4MDQ1NjM4LC0xMD
-A0MTg5OTc2LC0zNTY4MzI3LC04MTQxMjk1NjksNzE0MDMzNjMz
-LC00MDg1ODIyNDMsLTExMzk3OTM5MzMsMTM1MzIxNDk5LC0xND
-Y5NTcxMzUwLC02MDIxMzI5MF19
+eyJoaXN0b3J5IjpbLTY3MTgwNzA0MywtODQzOTA0MDUsLTE4Nj
+gwNDU2MzgsLTEwMDQxODk5NzYsLTM1NjgzMjcsLTgxNDEyOTU2
+OSw3MTQwMzM2MzMsLTQwODU4MjI0MywtMTEzOTc5MzkzMywxMz
+UzMjE0OTksLTE0Njk1NzEzNTAsLTYwMjEzMjkwXX0=
 -->
