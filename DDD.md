@@ -16,13 +16,17 @@
 
 [https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf](https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
 
-## DDD examples
+## Andere DDD examples
 [https://github.com/ardalis/ddd-guestbook](https://github.com/ardalis/ddd-guestbook)
 
 [https://github.com/zkavtaskin/Domain-Driven-Design-Example](https://github.com/zkavtaskin/Domain-Driven-Design-Example)
 
+## SQLite
 
+[https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli](https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli)
+
+[http://sqlitebrowser.org/](http://sqlitebrowser.org/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODA5Mjg3NV19
+eyJoaXN0b3J5IjpbNTUwNzE0MjY2LDE4MjgwOTI4NzVdfQ==
 -->
