@@ -11,6 +11,13 @@ namespace MyApplication.DomainModel.PlannedDeliveryAggregate
 
         public static PlannedDelivery Create(string deliveryId, string arrivalTimeForeseen, int deliveryOrder)
         {
+            if (String.IsNullOrEmpty(arrivalTimeForeseen))
+            {
+                throw new EntityValidationException(new System.Collections.Generic.List<string>()
+                {
+                    "arrivalTimeForeseen not correct",
+                });
+            }
             return new PlannedDelivery
             {
                 Id = Guid.NewGuid().ToString(),

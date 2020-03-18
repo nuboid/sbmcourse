@@ -1,5 +1,6 @@
 ﻿using MyApplication.DomainModel;
 using MyApplication.DomainModel.CustomerAggregate;
+using MyApplication.DomainModel.Specifications;
 using MyApplication.DomainModel.ValueObjects;
 using MyApplication.Infrastructure.EntityFramework;
 using MyApplication.Infrastructure.Repositories.EntityFramework;
@@ -52,6 +53,11 @@ namespace MyApplication.Infrastructure.CreateDatabase
                 {
                     Console.WriteLine(deliveryAddress.Address.AddressLine1);
                 }
+
+                //var deliveryRepository = new DeliveryRepository(domainDbContext);
+                //var specification = new DeliveryIsPlannedSpecification();
+                //var list = deliveryRepository.List(specification);
+
             }
 
             Console.WriteLine("Done");
