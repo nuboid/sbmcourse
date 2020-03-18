@@ -42,7 +42,7 @@ namespace MyApplication.DomainServices
                 var deliveryToBePlanned = _deliveryRepository.GetById(deliveryId);
 
                 //Set delivery as planned
-                deliveryToBePlanned.IsPlanned = true;
+                deliveryToBePlanned.SetPlanned();
                 _deliveryRepository.Update(deliveryToBePlanned);
 
                 //Create a planned delivery with foreseen arrivaltime and delivery order

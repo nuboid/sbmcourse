@@ -31,6 +31,11 @@ namespace MyApplication.DomainModel.DeliveryAggregate
             };
         }
 
+        public void SetPlanned()
+        {
+            IsPlanned = true;
+            SendDomainEvent(new DeliveryPlannedEvent(Id));
+        }
         public void AddDeliverPart(string deliveryId, double weight, double volume, List<string> productIds)
         {
             _deliveryParts.Add(new DeliveryPart

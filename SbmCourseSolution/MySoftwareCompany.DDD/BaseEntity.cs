@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MySoftwareCompany.DDD
 {
@@ -9,6 +10,11 @@ namespace MySoftwareCompany.DDD
         protected static string GenerateId()
         {
             return Guid.NewGuid().ToString();
+        }
+
+        public void SendDomainEvent(BaseDomainEvent domainEvent)
+        {
+
         }
     }
 }

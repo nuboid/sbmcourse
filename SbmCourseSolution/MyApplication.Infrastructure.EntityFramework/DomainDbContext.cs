@@ -42,7 +42,7 @@ namespace MyApplication.Infrastructure.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Filename=TestDatabase.db");
-            //optionsBuilder.UseLoggerFactory(LoggerFactory).EnableSensitiveDataLogging();
+            optionsBuilder.UseLoggerFactory(LoggerFactory).EnableSensitiveDataLogging();
             base.OnConfiguring(optionsBuilder);
         }
 
