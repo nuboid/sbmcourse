@@ -1,10 +1,15 @@
-﻿using Microsoft.AspNetCore.Hosting;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using MyApplication.ApplicationServices.DeliveryService;
+using Microsoft.Extensions.Logging;
 
-namespace MyApplication.APIHost
+namespace MyApplication.ApplicationServices.DeliveryService
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
