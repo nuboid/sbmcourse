@@ -1,10 +1,10 @@
-## Domain Driven Design
+# Domain Driven Design
 
-Boek 'Domain Driven Design Quickly'.
+## Boek 'Domain Driven Design Quickly'.
 
 [https://www.infoq.com/minibooks/domain-driven-design-quickly/](https://www.infoq.com/minibooks/domain-driven-design-quickly/)
 
-Links gebruikt in de slides.
+## Links gebruikt in de slides.
 
 [https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/database-per-microservice](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/database-per-microservice)
 
@@ -16,7 +16,7 @@ Links gebruikt in de slides.
 
 [https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf](https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
 
-#DDD examples
+## DDD examples
 [https://github.com/ardalis/ddd-guestbook](https://github.com/ardalis/ddd-guestbook)
 
 [https://github.com/zkavtaskin/Domain-Driven-Design-Example](https://github.com/zkavtaskin/Domain-Driven-Design-Example)
@@ -24,5 +24,5 @@ Links gebruikt in de slides.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDk1MTM5LDE1MzE2MDY5ODZdfQ==
+eyJoaXN0b3J5IjpbMTgyODA5Mjg3NV19
 -->
