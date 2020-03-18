@@ -27,6 +27,10 @@
 
 [http://sqlitebrowser.org/](http://sqlitebrowser.org/)
 
+## Private Setters in EF Core 1.1
+
+https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implemenation-entity-framework-core#infrastructure-in-entity-framework-core-from-a-ddd-perspective
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNzE0MjY2XX0=
+eyJoaXN0b3J5IjpbLTI3MTQ1MDM2N119
 -->
