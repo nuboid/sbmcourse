@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_FW", "_FW", "{AAFC34E6-1D9C-4900-A9E2-1035B36D2318}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{EE53F660-EA0B-446A-A747-01BB7B920588}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. ApplicationCore", "1. ApplicationCore", "{21270A5D-0F8F-4933-8C21-382D43BDFFB2}"
 EndProject

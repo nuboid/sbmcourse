@@ -12,7 +12,7 @@ namespace MyApplication.DomainModel.CustomerAggregate
         public string City { get; set; }
 
         private readonly List<DeliveryAddress> _deliveryAddresses = new List<DeliveryAddress>();
-
+        
         public IEnumerable<DeliveryAddress> DeliveryAddresses
         {
             get { return new ReadOnlyCollection<DeliveryAddress>(_deliveryAddresses); }
