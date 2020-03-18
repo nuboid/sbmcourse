@@ -16,10 +16,13 @@ Links gebruikt in de slides.
 
 [https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf](https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
 
-DDD examples
+#DDD examples
+[https://github.com/ardalis/ddd-guestbook](https://github.com/ardalis/ddd-guestbook)
+
+[https://github.com/zkavtaskin/Domain-Driven-Design-Example](https://github.com/zkavtaskin/Domain-Driven-Design-Example)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTYwNjk4Nl19
+eyJoaXN0b3J5IjpbMTc4MDk1MTM5LDE1MzE2MDY5ODZdfQ==
 -->
