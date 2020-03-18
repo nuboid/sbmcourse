@@ -4,7 +4,7 @@ Spring 2020 edition
 version : 18/03
 
 **Door de Corona-maatregelen zal op 18/03 de les online gegeven worden.
-Check je mails van SBM voor meer info en de link naar het online platform.**
+Check aub je mails van SBM voor meer info en de link naar het online platform.**
 
 https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-apps-in-net-core-3-x-on-azure
 
@@ -33,5 +33,5 @@ open `SbmCourseSolution.sln` in Visual Studio
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ2MzEwMjZdfQ==
+eyJoaXN0b3J5IjpbMTQ4MTA1MTI5MiwtMTk0NDYzMTAyNl19
 -->
