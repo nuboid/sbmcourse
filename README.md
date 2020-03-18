@@ -12,7 +12,7 @@ https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-ap
 
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
-### Clone the solution to you PC
+### Clone the solution to your PC
 
 open command prompt
 
@@ -33,5 +33,5 @@ open `SbmCourseSolution.sln` in Visual Studio
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTczMzc2MF19
+eyJoaXN0b3J5IjpbLTE5NDQ2MzEwMjZdfQ==
 -->
