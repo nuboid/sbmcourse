@@ -8,11 +8,12 @@
 
 [https://registry.hub.docker.com/_/rabbitmq/](https://registry.hub.docker.com/_/rabbitmq/)
 
-    docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3
-   
     docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
+    docker ps
+    docker stop *my_container*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzU0Mjg3MV19
+eyJoaXN0b3J5IjpbLTE5NTQ0NjAzXX0=
 -->
