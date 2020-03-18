@@ -21,7 +21,7 @@ open command prompt
     git branch -a
     git checkout "dddsolutionpart2"
 
-open SbmCourseSolution.sln in Visual studio
+open `SbmCourseSolution.sln` in Visual Studio
 ##
  Code Share
 [https://codeshare.io/](https://codeshare.io/)
@@ -33,5 +33,5 @@ open SbmCourseSolution.sln in Visual studio
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQ2OTAwNiwxODU4OTE0MTYyXX0=
+eyJoaXN0b3J5IjpbLTgwMTczMzc2MF19
 -->
