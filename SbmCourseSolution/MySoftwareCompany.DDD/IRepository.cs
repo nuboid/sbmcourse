@@ -4,6 +4,7 @@ namespace MySoftwareCompany.DDD
 {
     public interface IRepository<T> where T : BaseEntity
     {
+
         T GetById(string Id);
         List<T> List(ISpecification<T> spec = null);
         T Add(T entity);

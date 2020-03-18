@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyApplication.DomainInterfaces\MyApplication.DomainInterfaces.csproj" />
     <ProjectReference Include="..\MyApplication.DomainModel\MyApplication.DomainModel.csproj" />
+    <ProjectReference Include="..\MyApplication.DomainServices\MyApplication.DomainServices.csproj" />
+    <ProjectReference Include="..\MyApplication.Infrastructure.EntityFramework\MyApplication.Infrastructure.EntityFramework.csproj" />
     <ProjectReference Include="..\MyApplication.Infrastructure.Repositories.EntityFramework\MyApplication.Infrastructure.Repositories.EntityFramework.csproj" />
   </ItemGroup>
 

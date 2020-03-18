@@ -1,4 +1,5 @@
-﻿using MyApplication.Infrastructure.EntityFramework;
+﻿using Microsoft.EntityFrameworkCore;
+using MyApplication.Infrastructure.EntityFramework;
 using MySoftwareCompany.DDD;
 using System;
 using System.Collections.Generic;
@@ -24,7 +25,8 @@ namespace MyApplication.Infrastructure.Repositories.EntityFramework
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _domainDbContext.Set<T>().Remove(entity);
+            _domainDbContext.SaveChanges();
         }
 
         public T GetById(string Id)
@@ -34,12 +36,18 @@ namespace MyApplication.Infrastructure.Repositories.EntityFramework
 
         public List<T> List(ISpecification<T> spec = null)
         {
-            throw new NotImplementedException();
+            var query = _domainDbContext.Set<T>().AsQueryable();
+            if (spec != null)
+            {
+                query = query.Where(spec.Criteria);
+            }
+            return query.ToList();
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _domainDbContext.Entry(entity).State = EntityState.Modified;
+            _domainDbContext.SaveChanges();
         }
     }
 }
