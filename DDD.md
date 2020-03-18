@@ -28,5 +28,5 @@
 [http://sqlitebrowser.org/](http://sqlitebrowser.org/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNzE0MjY2LDE4MjgwOTI4NzVdfQ==
+eyJoaXN0b3J5IjpbNTUwNzE0MjY2XX0=
 -->
