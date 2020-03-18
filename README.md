@@ -8,8 +8,15 @@ Check je mails van SBM voor meer info en de link naar het online platform.**
 
 https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-apps-in-net-core-3-x-on-azure
 
+### Clone the solution to you PC
 
-## Code Share
+    git clone https://github.com/nuboid/sbmcourse.git   
+    cd sbmcourse
+    git branch -a
+    git checkout "dddsolutionpart2"
+
+##
+ Code Share
 [https://codeshare.io/](https://codeshare.io/)
 
 
@@ -19,5 +26,5 @@ https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-ap
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODkxNDE2Ml19
+eyJoaXN0b3J5IjpbLTEwNjEzODE4NTksMTg1ODkxNDE2Ml19
 -->
