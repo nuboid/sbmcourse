@@ -134,6 +134,26 @@ namespace MyResearch.Messaging.Demo
         {
             tbRoutingKey.Text = "KEY.*";
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://localhost:15672");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = "docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management";
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(Environment.CurrentDirectory + @"\..\..\..\MyReseach.QueueListener\bin\Debug\netcoreapp3.1\MyReseach.QueueListener.exe","Queue001");
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(Environment.CurrentDirectory + @"\..\..\..\MyReseach.QueueListener\bin\Debug\netcoreapp3.1\MyReseach.QueueListener.exe", "Queue002");
+        }
     }
 
 }
