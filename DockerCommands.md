@@ -21,8 +21,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 		#command prompt to directory with .csproj
 		#dotnet publish "MyProject.csproj" -c Release -o /app/publish
 		cd app/publish
-		#copy files to same directory as dockerfile
-		#powershell to directory with dockerfile
+		#copy dockerfile (below) to here	
 		docker build -t mydockerimage -f .\DockerFile .
 
 		docker container run -it  -p 5000:5000 --name myrunningcontainer mydockerimage
@@ -46,5 +45,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjU5NDg1NCwxNDE2MzIzODk2XX0=
+eyJoaXN0b3J5IjpbMTk5NzA2Mjg0Nl19
 -->
