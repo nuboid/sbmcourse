@@ -7,19 +7,18 @@
 https://docs.docker.com/engine/reference/commandline/docker/
 
 
-		#Start Clean		
-		docker stop $(docker ps -a -q)
-		docker rm $(docker ps -a -q)
-		docker rmi $(docker images -q)
-		docker system prune -a
-		docker ps
-		docker ps -a
-		
-		#Show Images
-		docker images
-
+	#Start Clean		
+	docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
+	docker rmi $(docker images -q)
+	docker system prune -a
+	docker ps
+	docker ps -a
+	
+	#Show Images
+	docker images
 		#command prompt to directory with .csproj
-		#dotnet publish "MyProject.csproj" -c Release -o /app/publish
+	#dotnet publish "MyProject.csproj" -c Release -o /app/publish
 		cd app/publish
 		#copy dockerfile (below) to here	
 		docker build -t mydockerimage -f .\DockerFile .
@@ -45,5 +44,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzA2Mjg0Nl19
+eyJoaXN0b3J5IjpbLTU1MzUyMTM4OCwxOTk3MDYyODQ2XX0=
 -->
