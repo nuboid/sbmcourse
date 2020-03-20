@@ -45,5 +45,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTYzNjE5OCwxMjc2MzU0MjIzXX0=
+eyJoaXN0b3J5IjpbLTY0NTYzNjE5OF19
 -->
