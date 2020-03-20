@@ -35,16 +35,17 @@ https://docs.docker.com/engine/reference/commandline/docker/
 #docker tag 98 nuboid/netcoreapiindocker:onlydll
 #docker push nuboid/netcoreapiindocker:onlydll
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-buster-slim AS base
+# DockerFile
+	FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-buster-slim AS base
 
-WORKDIR /app
-EXPOSE 80
+	WORKDIR /app
+	EXPOSE 80
 
-ENV ASPNETCORE_URLS http://+:5000
+	ENV ASPNETCORE_URLS http://+:5000
 
-COPY . .
-ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
+	COPY . .
+	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc3MDk2MywtMzkwMjM1NTc4XX0=
+eyJoaXN0b3J5IjpbLTE2MzA4NjcwMjIsLTM5MDIzNTU3OF19
 -->
