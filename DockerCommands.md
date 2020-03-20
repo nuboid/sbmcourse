@@ -10,7 +10,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	#Start Clean		
 	docker stop $(docker ps -a -q)
 	docker rm $(docker ps -a -q)
-	docker rmi $(docker images -q)
+	docker rmi $( -q)
 	docker system prune -a
 	docker ps
 	docker ps -a
@@ -55,5 +55,6 @@ https://docs.docker.com/engine/reference/commandline/docker/
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzODA2MTddfQ==
+eyJoaXN0b3J5IjpbLTIwMTgxNTc0MjcsLTE2MzAzODA2MTddfQ
+==
 -->
