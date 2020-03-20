@@ -47,14 +47,13 @@ https://docs.docker.com/engine/reference/commandline/docker/
     FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
     WORKDIR /app
-    EXPOSE 443
+    EXPOSE 80
 
-    ENV ASPNETCORE_URLS https://+:5000
+    ENV ASPNETCORE_URLS http://+:5000
 
     COPY . .
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgxNTc0MjcsLTE2MzAzODA2MTddfQ
-==
+eyJoaXN0b3J5IjpbLTMwNzE0OTM1MV19
 -->
