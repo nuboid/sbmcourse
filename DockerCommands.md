@@ -23,9 +23,9 @@ https://docs.docker.com/engine/reference/commandline/docker/
 
 		#copy files to same directory as dockerfile
 		#powershell to directory with dockerfile
-		docker build -t netcoreapiindocker -f .\DockerFile .
+		docker build -t mydockerimage -f .\DockerFile .
 
-#docker container run -it  -p 5000:5000 --name netcoreapiindocker netcoreapiindocker
+		docker container run -it  -p 5000:5000 --name netcoreapiindocker netcoreapiindocker
 #docker stop netcoreapiindocker
 #docker start netcoreapiindocker
 #docker exec -it netcoreapiindocker /bin/bash
@@ -46,5 +46,5 @@ COPY . .
 ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk0NDY1MTAsLTM5MDIzNTU3OF19
+eyJoaXN0b3J5IjpbLTExMjc3MDk2MywtMzkwMjM1NTc4XX0=
 -->
