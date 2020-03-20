@@ -25,12 +25,13 @@ https://docs.docker.com/engine/reference/commandline/docker/
 		#powershell to directory with dockerfile
 		docker build -t mydockerimage -f .\DockerFile .
 
-		docker container run -it  -p 5000:5000 --name netcoreapiindocker netcoreapiindocker
-#docker stop netcoreapiindocker
-#docker start netcoreapiindocker
-#docker exec -it netcoreapiindocker /bin/bash
-#uname -r
-#cat /etc/os-release
+		docker container run -it  -p 5000:5000 --name myrunningcontainer mydockerimage
+
+		docker stop myrunningcontainer 
+		docker start myrunningcontainer 
+		docker exec -it myrunningcontainer /bin/bash
+		uname -r
+		cat /etc/os-release
 
 #docker tag 98 nuboid/netcoreapiindocker:onlydll
 #docker push nuboid/netcoreapiindocker:onlydll
@@ -47,5 +48,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxNTkxMjUyXX0=
+eyJoaXN0b3J5IjpbMTI3NjM1NDIyMywzODE1OTEyNTJdfQ==
 -->
