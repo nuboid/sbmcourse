@@ -40,16 +40,16 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker container run -it  -p 5000:5000 --name myrunningcontainer nuboid/mydockerimage:1.0
 
 # DockerFile
-	FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
+    FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
     WORKDIR /app
-    EXPOSE 80
+    EXPOSE 443
 
-    ENV ASPNETCORE_URLS http://+:5000;https://+:5001
+    ENV ASPNETCORE_URLS https://+:5000
 
     COPY . .
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE2NDg1NTNdfQ==
+eyJoaXN0b3J5IjpbMTcxMTYzMjg5NF19
 -->
