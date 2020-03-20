@@ -42,14 +42,15 @@ https://docs.docker.com/engine/reference/commandline/docker/
 # DockerFile
 	FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
-	WORKDIR /app
-	EXPOSE 80
+    WORKDIR /app
+    EXPOSE 80
 
-	ENV ASPNETCORE_URLS http://+:5000
+    ENV ASPNETCORE_URLS http://+:5000;https://+:5001
 
-	COPY . .
-	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
+    COPY . .
+    ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA0MjgzOTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MDE2NDg1NTMsLTEwMTA0MjgzOTFdfQ
+==
 -->
