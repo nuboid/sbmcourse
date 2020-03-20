@@ -55,5 +55,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzODA2MTcsMTAzNjU4NDY2XX0=
+eyJoaXN0b3J5IjpbLTE2MzAzODA2MTddfQ==
 -->
