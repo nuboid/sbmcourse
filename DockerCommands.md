@@ -26,7 +26,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	#copy dockerfile (below) to here	
 	docker build -t mydockerimage -f .\DockerFile .
 
-	docker container run -it  -p 5001:5001 --name myrunningcontainer mydockerimage
+	docker container run -it  -p 5000:5000 --name myrunningcontainer mydockerimage
 
 	docker stop myrunningcontainer 
 	docker start myrunningcontainer 
@@ -51,5 +51,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkxMDQ5MDVdfQ==
+eyJoaXN0b3J5IjpbLTE3MDE2NDg1NTNdfQ==
 -->
