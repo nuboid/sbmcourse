@@ -12,41 +12,14 @@ namespace MySoftwareCompany.APIGateway.Host
     {
         static void Main(string[] args)
         {
-
-            CreateWebHostBuilder(args).Run();
-
-            //new WebHostBuilder()
-            //  .UseKestrel()
-            //  .UseContentRoot(Directory.GetCurrentDirectory())
-            //  .ConfigureAppConfiguration((hostingContext, config) =>
-            //  {
-            //      config
-            //          .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-            //          .AddJsonFile("appsettings.json", true, true)
-            //          .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
-            //          .AddJsonFile("ocelot.json");
-            //          //.AddEnvironmentVariables();
-            //  })
-            //  .ConfigureServices(s => {
-            //      s.AddOcelot();
-            //  })
-            //  .ConfigureLogging((hostingContext, logging) =>
-            //  {
-            //       //add your logging
-            //   })
-            //  .UseIISIntegration()
-            //  .Configure(app =>
-            //  {
-            //      app.UseOcelot().Wait();
-            //  })
-            //  .Build()
-            //  .Run();
+            var address = "http://localhost:9000;https://localhost:10000";
+            CreateWebHostBuilder(address).Run();
         }
 
-        public static IWebHost CreateWebHostBuilder(string[] args)
+        public static IWebHost CreateWebHostBuilder(string address)
         {
             return
-                WebHost.CreateDefaultBuilder(args)
+                WebHost.CreateDefaultBuilder()
                      .UseKestrel()
                .UseContentRoot(Directory.GetCurrentDirectory())
                .ConfigureAppConfiguration((hostingContext, config) =>
@@ -71,7 +44,7 @@ namespace MySoftwareCompany.APIGateway.Host
                {
                    app.UseOcelot().Wait();
                })
-               .UseUrls("http://localhost:9000;https://localhost:10000")
+               .UseUrls(address)
                .Build();
         }
     }

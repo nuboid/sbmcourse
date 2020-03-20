@@ -36,7 +36,7 @@ namespace MyResearch.APIGateway.Demo
 
         private async void button4_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 1; i <= 1000; i++)
             {
                 var httpClient = new HttpClient();
                 var response = await httpClient.GetAsync(@"https://localhost:10000/gateway/ping");
