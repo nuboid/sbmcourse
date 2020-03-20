@@ -16,7 +16,6 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker ps -a
 	
 	#Show Images
-	
 	docker images
 
 	#command prompt to directory with .csproj
@@ -48,5 +47,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MjIwNTQ5XX0=
+eyJoaXN0b3J5IjpbLTEwMDIyMzkyNjldfQ==
 -->
