@@ -30,7 +30,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 		docker stop myrunningcontainer 
 		docker start myrunningcontainer 
 		
-		docker tag 98 nuboid/netcoreapiindocker:onlydll
+		docker tag mydockerimage nuboid/mydockerimage:1.0
 		docker push nuboid/netcoreapiindocker:onlydll
 
 # DockerFile
@@ -45,5 +45,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTYzNjE5OF19
+eyJoaXN0b3J5IjpbLTEyOTg0ODM1MSwtNjQ1NjM2MTk4XX0=
 -->
