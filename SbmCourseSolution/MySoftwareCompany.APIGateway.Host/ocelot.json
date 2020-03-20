@@ -14,8 +14,9 @@
         }
       ],
       "UpstreamPathTemplate": "/gateway/{everything}",
+     
       "LoadBalancerOptions": {
-        "Type": "RoundRobin"
+        "Type": "LeastConnection"
       },
       "UpstreamHttpMethod": [ "Get" ]
     }
@@ -24,5 +25,7 @@
     "RequestIdKey": "OcRequestId",
 
     "AdministrationPath": "/administration"
+
+   
   }
 }

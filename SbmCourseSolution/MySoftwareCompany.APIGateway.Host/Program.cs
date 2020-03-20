@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
-
+using Ocelot.Provider.Consul;
 namespace MySoftwareCompany.APIGateway.Host
 {
     class Program
