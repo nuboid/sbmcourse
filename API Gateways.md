@@ -6,6 +6,9 @@
 
 [https://github.com/catcherwong-archive/APIGatewayDemo/tree/master/APIGatewayLBDemo](https://github.com/catcherwong-archive/APIGatewayDemo/tree/master/APIGatewayLBDemo)
 
+[https://medium.com/@paulius.juozelskis/api-gateway-using-net-core-ocelot-and-consul-f0adea97f57](https://medium.com/@paulius.juozelskis/api-gateway-using-net-core-ocelot-and-consul-f0adea97f57)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjc1MTkxMV19
+eyJoaXN0b3J5IjpbMTQ2NDA0OTQzMl19
 -->
