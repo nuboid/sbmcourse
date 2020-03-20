@@ -39,6 +39,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker pull nuboid/mydockerimage:1.0
 	docker container run -it  -p 5000:5000 --name myrunningcontainer nuboid/mydockerimage:1.0
 
+    https://localhost:5000/weatherforecast
+
 # DockerFile
     FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
@@ -51,5 +53,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTYzMjg5NF19
+eyJoaXN0b3J5IjpbLTQ5NjM1MjIxNV19
 -->
