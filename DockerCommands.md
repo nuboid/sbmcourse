@@ -29,13 +29,9 @@ https://docs.docker.com/engine/reference/commandline/docker/
 
 		docker stop myrunningcontainer 
 		docker start myrunningcontainer 
-		docker exec -it myrunningcontainer 
-		/bin/bash
-		uname -r
-		cat /etc/os-release
-
-#docker tag 98 nuboid/netcoreapiindocker:onlydll
-#docker push nuboid/netcoreapiindocker:onlydll
+		
+		docker tag 98 nuboid/netcoreapiindocker:onlydll
+		docker push nuboid/netcoreapiindocker:onlydll
 
 # DockerFile
 	FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
@@ -49,5 +45,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgzNzMyNywxMjc2MzU0MjIzXX0=
+eyJoaXN0b3J5IjpbLTY0NTYzNjE5OCwxMjc2MzU0MjIzXX0=
 -->
