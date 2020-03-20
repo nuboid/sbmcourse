@@ -33,7 +33,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 		
 	docker tag mydockerimage nuboid/mydockerimage:1.0
 	docker logout
-	docker login -u nuboid
+	docker login
 	docker push nuboid/mydockerimage:1.0
 
 # DockerFile
@@ -48,5 +48,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjkwMDQyM119
+eyJoaXN0b3J5IjpbNjU4MjA0MTZdfQ==
 -->
