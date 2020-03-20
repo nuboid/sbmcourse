@@ -36,6 +36,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker login
 	docker push nuboid/mydockerimage:1.0
 
+	dockdocker pull nuboid/mydockerimage:1.0
+
 # DockerFile
 	FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
@@ -48,5 +50,5 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	ENTRYPOINT ["dotnet", "NetCoreAPIinDocker.dll"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4MjA0MTZdfQ==
+eyJoaXN0b3J5IjpbMjAzNDkzNzA0Miw2NTgyMDQxNl19
 -->
