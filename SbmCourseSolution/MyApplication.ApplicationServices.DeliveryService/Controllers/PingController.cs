@@ -14,6 +14,7 @@ namespace MyApplication.ApplicationServices.DeliveryService.Controllers
         [HttpGet("api/ping")]
         public String GetPing()
         {
+            Console.WriteLine("PING Called "+ DateTime.Now.Ticks );
             return "pong ";
         }
     }

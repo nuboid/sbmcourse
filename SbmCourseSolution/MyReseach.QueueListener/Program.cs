@@ -16,6 +16,7 @@ namespace MyReseach.QueueListener
 
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.White;
             if (args.Length==0)
             {
                 Console.WriteLine("please specify the QueueName as argument.");
@@ -24,7 +25,7 @@ namespace MyReseach.QueueListener
             {
                 
                 var queueName = args[0];
-                Console.WriteLine("Listening to Queue : " + queueName);
+                
                 var factory = new ConnectionFactory() { HostName = "localhost" };
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
@@ -40,10 +41,11 @@ namespace MyReseach.QueueListener
                     channel.BasicConsume(queue: queueName,
                                          autoAck: true,
                                          consumer: consumer);
-
-                    Console.WriteLine(" Press [enter] to exit.");
+                    Console.WriteLine("Listening to Queue : " + queueName);
                     Console.ReadLine();
                 }
+
+                
             }
            
         }

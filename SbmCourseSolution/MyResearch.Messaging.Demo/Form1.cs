@@ -61,17 +61,35 @@ namespace MyResearch.Messaging.Demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var factory = new ConnectionFactory() { HostName = "localhost" };
-            using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
+            try
             {
-                string message = tbSenderMessage.Text.Trim() + " " + DateTime.Now.Ticks.ToString() + " " + tbSenderRoutingKey.Text;
-                var body = Encoding.UTF8.GetBytes(message);
+                if (_senderChannel != null)
+                {
 
-                channel.BasicPublish(exchange: tbSenderExhangeName.Text,
-                                     routingKey: tbSenderRoutingKey.Text,
-                                     basicProperties: null,
-                                     body: body);
+                    string message = tbSenderMessage.Text.Trim() + " " + DateTime.Now.Ticks.ToString() + " " + tbSenderRoutingKey.Text;
+                    var body = Encoding.UTF8.GetBytes(message);
+
+                    _senderChannel.ConfirmSelect();
+
+                    _senderChannel.BasicPublish(
+                            exchange: tbSenderExhangeName.Text,
+                            routingKey: tbSenderRoutingKey.Text,
+                            basicProperties: null,
+                            body: body);
+
+                    _senderChannel.WaitForConfirmsOrDie(new TimeSpan(0, 0, 5));
+
+                    label10.Text = "Sent : " + message;
+                }
+                else
+                {
+                    MessageBox.Show("SenderChannel not created");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.GetType().ToString());
             }
         }
 
@@ -143,16 +161,27 @@ namespace MyResearch.Messaging.Demo
         private void Form1_Load(object sender, EventArgs e)
         {
             textBox1.Text = "docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management";
+            label10.Text = "";
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Environment.CurrentDirectory + @"\..\..\..\MyReseach.QueueListener\bin\Debug\netcoreapp3.1\MyReseach.QueueListener.exe","Queue001");
+            System.Diagnostics.Process.Start(Environment.CurrentDirectory + @"\..\..\..\MyReseach.QueueListener\bin\Debug\netcoreapp3.1\MyReseach.QueueListener.exe", "Queue001");
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(Environment.CurrentDirectory + @"\..\..\..\MyReseach.QueueListener\bin\Debug\netcoreapp3.1\MyReseach.QueueListener.exe", "Queue002");
+        }
+
+        private IModel _senderChannel;
+        private void button20_Click(object sender, EventArgs e)
+        {
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var connection = factory.CreateConnection();
+            _senderChannel = connection.CreateModel();
+
+            MessageBox.Show("Channel created");
         }
     }
 
