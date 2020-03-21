@@ -1,0 +1,42 @@
+﻿@page "/"
+@inject NavigationManager _navigationManager
+@using MySoftwareCompany.Services.GenerateBarcode.Controllers
+
+<h1>Nuboid.GenerateBarCode</h1>
+<br />
+<br />
+<br />
+Example API : <a href="@Link" target="_blank">@Link</a>
+<br />
+<br />
+@*<p><b>status:</b> @Message</p>*@
+@code {
+
+    private string Message = "";
+    private string Link = "";
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Link = _navigationManager.BaseUri + "api/barcode/somestring";
+    }
+
+    //public async Task TestService()
+    //{
+    //    try
+    //    {
+    //        var httpClient = new HttpClient();
+    //        var response = await httpClient.GetAsync(_navigationManager.BaseUri + @"api/ping");
+    //        response.EnsureSuccessStatusCode();
+    //        var content = await response.Content.ReadAsStringAsync();
+
+    //        Message = "OK";
+    //    }
+    //    catch (Exception ex)
+    //    {
+
+    //        Message = ex.ToString();
+    //    }
+    //}
+}
+
