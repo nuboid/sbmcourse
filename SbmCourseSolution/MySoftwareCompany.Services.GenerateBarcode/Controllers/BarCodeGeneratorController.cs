@@ -1,4 +1,5 @@
-﻿using Barcoder.Qr;
+﻿using Barcoder.Code128;
+using Barcoder.Qr;
 using Barcoder.Renderer.Image;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
@@ -17,7 +18,7 @@ namespace MySoftwareCompany.Services.GenerateBarcode.Controllers
         [HttpGet("api/barcode/{data}")]
         public IActionResult GetBarcode(string data)
         {
-            var barcode = QrEncoder.Encode(data, ErrorCorrectionLevel.Q, Encoding.Auto);
+            var barcode = Code128Encoder.Encode(data, true);
             var renderer = new ImageRenderer();
             var stream = new MemoryStream();
             renderer.Render(barcode, stream);
