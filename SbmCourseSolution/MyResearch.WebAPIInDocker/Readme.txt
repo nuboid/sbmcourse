@@ -1,40 +1,56 @@
-﻿#Start Clean		
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
-docker rmi $(docker images -q)
-docker system prune -a
-docker ps
-docker ps -a
+﻿## Docker Commands
 
-#Show Images
-docker images
+    docker ps
+    docker run
+    docker stop
 
-#command prompt to directory with .csproj
+https://docs.docker.com/engine/reference/commandline/docker/
 
-dotnet publish "MyProject.csproj" -c Release -o /app/publish
-cd app/publish
 
-#copy dockerfile (below) to here	
-docker build -t mydockerimage -f .\DockerFile .
-
-docker container run -it  -p 5000:5000 --name myrunningcontainer mydockerimage
-
-docker stop myrunningcontainer 
-docker start myrunningcontainer 
+	#Start Clean		
+	docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
+	docker rmi $( -q)
+	docker system prune -a
+	docker ps
+	docker ps -a
 	
-docker tag mydockerimage nuboid/mydockerimage:1.0
-docker login -u nuboid
-docker push nuboid/mydockerimage:1.0
+	#Show Images
+	docker images
 
+	#command prompt to directory with .csproj
+	
+	dotnet publish "MyProject.csproj" -c Release -o /app/publish
+	cd app/publish
+	
+	#copy dockerfile (below) to here	
+	docker build -t mydockerimage -f .\DockerFile .
 
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
+	docker container run -it  -p 5000:5000 --name myrunningcontainer mydockerimage
 
-WORKDIR /app
-EXPOSE 80
+	docker stop myrunningcontainer 
+	docker start myrunningcontainer 
+		
+	docker tag mydockerimage nuboid/mydockerimage:1.0
+	docker logout
+	docker login
+	docker push nuboid/mydockerimage:1.0
 
-ENV ASPNETCORE_URLS http://+:5000
+	docker pull nuboid/mydockerimage:1.0
+	docker container run -it  -p 5000:5000 --name myrunningcontainer nuboid/mydockerimage:1.0
 
-COPY . .
-ENTRYPOINT ["dotnet", "MyResearch.WebAPIInDocker.dll"]
+    http://localhost:5000/weatherforecast
+    
+    docker rmi nuboid/mydockerimage:1.1
 
+# DockerFile
+    FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
+
+    WORKDIR /app
+    EXPOSE 80
+
+    ENV ASPNETCORE_URLS http://+:5000
+
+    COPY . .
+    ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
