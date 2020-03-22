@@ -4,19 +4,23 @@
 
 <h1>Nuboid.GenerateBarCode</h1>
 <br />
-Example API : <a href="@Link" target="_blank">@Link</a>
+Swagger : <a href="@SwaggerLink" target="_blank">@SwaggerLink</a>
+<br/>
+Example API : <a href="@ExampleLink" target="_blank">@ExampleLink</a>
 <br />
 <br />
 @*<p><b>status:</b> @Message</p>*@
 @code {
 
     private string Message = "";
-    private string Link = "";
+    private string ExampleLink = "";
+    private string SwaggerLink = "";
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        Link = _navigationManager.BaseUri + "api/barcode/FOOBAR12345";
+        ExampleLink = _navigationManager.BaseUri + "api/barcode/FOOBAR12345";
+        SwaggerLink = _navigationManager.BaseUri + "swagger/index.html";
     }
 
     //public async Task TestService()
