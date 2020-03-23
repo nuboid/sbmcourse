@@ -7,6 +7,7 @@
     //ConnectionString
     mongodb://localhost:27017
 
+Nuget : MongoDB.Driver
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0NDIxMjQwLC03NDY0NzczOV19
+eyJoaXN0b3J5IjpbLTExNjc1OTQ2MTNdfQ==
 -->
