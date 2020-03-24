@@ -36,26 +36,39 @@ namespace MyResearch.APIGateway.Demo
 
         private async void button4_Click(object sender, EventArgs e)
         {
-            for (int i = 1; i <= 500; i++)
+            for (int i = 1; i <= 10000; i++)
             {
                 using (var httpClient = new HttpClient())
                 {
                     var response = await httpClient.GetAsync(@"https://localhost:10000/gateway/ping");
                     var json = await response.Content.ReadAsStringAsync();
-                    label1.Text = i.ToString() + " " + json;
+                    label1.Text = "call #" + i.ToString() + " executed by node " + json.Substring(json.Length - 1, 1);
+
+                    System.Threading.Thread.Sleep(500);
                 }
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label8.Text = "docker run -p 8500:8500 consul";
+            textBox1.Text = "docker run -p 8500:8500 consul";
             label1.Text = "";
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://localhost:8500");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            for (int i = 13; i <= 23; i++)
+            {
+                var par = string.Format("http://localhost:90{0};https://localhost:100{0}", i);
+
+                System.Diagnostics.Process.Start(Environment.CurrentDirectory + @"\..\..\..\MyApplication.APIHost\bin\Debug\netcoreapp3.1\MyApplication.APIHost.exe", par);
+            }
+            
         }
     }
 }

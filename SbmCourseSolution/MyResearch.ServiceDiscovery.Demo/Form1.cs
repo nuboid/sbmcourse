@@ -22,7 +22,7 @@ namespace MyResearch.ServiceDiscovery.Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label8.Text = "docker run -p 8500:8500 consul";
+            textBox1.Text = "docker run -p 8500:8500 consul";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -73,6 +73,28 @@ namespace MyResearch.ServiceDiscovery.Demo
            
         }
 
+      
+        private async void button5_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "";
+            var httpClient = new HttpClient();
+            var url = "http://localhost:8500/v1/health/service/myservice";
+
+            try
+            {
+                var response = await httpClient.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+                var json = await response.Content.ReadAsStringAsync();
+                textBox2.Text = JsonPrettify(json);
+            }
+            catch (Exception ex)
+            {
+
+                textBox2.Text = ex.ToString();
+            }
+
+        }
+
         public static string JsonPrettify(string json)
         {
             using (var stringReader = new StringReader(json))
@@ -84,5 +106,6 @@ namespace MyResearch.ServiceDiscovery.Demo
                 return stringWriter.ToString();
             }
         }
+
     }
 }
