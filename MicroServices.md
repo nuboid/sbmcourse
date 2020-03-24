@@ -37,6 +37,11 @@
  ### Azure ServiceBus Topic/Subscriptions
 
 [https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
+
+## Additional Watching
+
+[https://www.youtube.com/watch?v=STKCRSUsyP0](https://www.youtube.com/watch?v=STKCRSUsyP0)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg1NDQwOF19
+eyJoaXN0b3J5IjpbNDE4MjYwODA5LDEzOTg4NTQ0MDhdfQ==
 -->
