@@ -4,7 +4,7 @@
 
 [https://www.infoq.com/minibooks/domain-driven-design-quickly/](https://www.infoq.com/minibooks/domain-driven-design-quickly/)
 
-This pdf (link below) also contains a good overview of DDD based on the book of Evans. **Its has good summaries of all concepts printed in bold.**
+This pdf (link below) also contains a good overview of DDD  (by Evans). **It has good summaries of all concepts and advice how to implement them printed in bold.**
 
 [https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf](https://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf)
 
@@ -36,5 +36,5 @@ This pdf (link below) also contains a good overview of DDD based on the book of 
 https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-implemenation-entity-framework-core#infrastructure-in-entity-framework-core-from-a-ddd-perspective
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODY4NzA0OV19
+eyJoaXN0b3J5IjpbMzg2ODY4NzEwXX0=
 -->
