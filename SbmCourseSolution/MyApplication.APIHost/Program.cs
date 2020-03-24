@@ -25,7 +25,7 @@ namespace MyApplication.APIHost
         public static IWebHost BuildWebHost(string urls)
         {
             //urls = "http://localhost:9001;https://localhost:10001";
-            return WebHost.CreateDefaultBuilder()
+            return WebHost.CreateDefaultBuilder()                
                 .UseStartup<Startup>()
                 .UseUrls(urls)
                 .Build();

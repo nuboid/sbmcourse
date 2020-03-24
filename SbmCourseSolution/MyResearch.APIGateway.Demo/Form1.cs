@@ -36,18 +36,26 @@ namespace MyResearch.APIGateway.Demo
 
         private async void button4_Click(object sender, EventArgs e)
         {
-            for (int i = 1; i <= 1000; i++)
+            for (int i = 1; i <= 500; i++)
             {
-                var httpClient = new HttpClient();
-                var response = await httpClient.GetAsync(@"https://localhost:10000/gateway/ping");
-                var x = await response.Content.ReadAsStringAsync();
-                label1.Text = i.ToString();
+                using (var httpClient = new HttpClient())
+                {
+                    var response = await httpClient.GetAsync(@"https://localhost:10000/gateway/ping");
+                    var json = await response.Content.ReadAsStringAsync();
+                    label1.Text = i.ToString() + " " + json;
+                }
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label8.Text = "docker run -p 8500:8500 consul";
             label1.Text = "";
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://localhost:8500");
         }
     }
 }

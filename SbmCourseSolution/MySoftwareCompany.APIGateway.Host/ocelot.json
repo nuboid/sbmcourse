@@ -2,21 +2,13 @@
   "ReRoutes": [
     {
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 10001
-        },
-        {
-          "Host": "localhost",
-          "Port": 10002
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "MyService",
      
+      "UpstreamPathTemplate": "/gateway/{everything}",
+
       "LoadBalancerOptions": {
-        "Type": "LeastConnection"
+        "Type": "RoundRobin"
       },
       "UpstreamHttpMethod": [ "Get" ]
     }
@@ -24,8 +16,13 @@
   "GlobalConfiguration": {
     "RequestIdKey": "OcRequestId",
 
-    "AdministrationPath": "/administration"
+    "AdministrationPath": "/administration",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
 
-   
+
   }
 }

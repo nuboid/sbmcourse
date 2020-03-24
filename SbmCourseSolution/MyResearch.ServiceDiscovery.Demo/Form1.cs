@@ -52,6 +52,8 @@ namespace MyResearch.ServiceDiscovery.Demo
 
         private async void button4_Click(object sender, EventArgs e)
         {
+
+        //http://localhost:8500/v1/health/service/myservice
             textBox2.Text = "";
             var httpClient = new HttpClient();
             var url = "http://localhost:8500/v1/catalog/service/MyService";

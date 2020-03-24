@@ -33,7 +33,7 @@ namespace MySoftwareCompany.APIGateway.Host
                })
                .ConfigureServices(s =>
                {
-                   s.AddOcelot();
+                   s.AddOcelot().AddConsul();
                })
                .ConfigureLogging((hostingContext, logging) =>
                {

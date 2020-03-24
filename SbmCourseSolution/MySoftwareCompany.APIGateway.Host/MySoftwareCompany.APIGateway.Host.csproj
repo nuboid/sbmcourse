@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="ocelot - Copy.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="ocelot.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

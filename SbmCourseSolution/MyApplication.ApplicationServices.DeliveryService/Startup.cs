@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MyApplication.ApplicationServices.Extensions;
 
 namespace MyApplication.ApplicationServices.DeliveryService
 {
@@ -26,6 +27,8 @@ namespace MyApplication.ApplicationServices.DeliveryService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddConsulConfig(Configuration);
+
             services.AddControllers();
 
             services.AddSwaggerGen(c =>
@@ -41,6 +44,8 @@ namespace MyApplication.ApplicationServices.DeliveryService
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseConsul();
 
             app.UseHttpsRedirection();
 
