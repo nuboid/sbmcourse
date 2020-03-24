@@ -13,7 +13,9 @@
     docker ps
     docker stop *my_container*
 
+Topic/Subscriptions
 
+[https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ0NjAzXX0=
+eyJoaXN0b3J5IjpbODg0MjMzMF19
 -->
