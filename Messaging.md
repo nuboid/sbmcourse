@@ -3,6 +3,8 @@
 
 [https://martinfowler.com/articles/microservices.html](https://martinfowler.com/articles/microservices.html)
 
+[https://microservices.io/patterns/index.html](https://microservices.io/patterns/index.html)
+
 [https://martinfowler.com/articles/microservices.html#CharacteristicsOfAMicroserviceArchitecture](https://martinfowler.com/articles/microservices.html#CharacteristicsOfAMicroserviceArchitecture)
 
 [http://theartofscalability.com/](http://theartofscalability.com/)
@@ -34,5 +36,6 @@ Topic/Subscriptions
 
 [https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MTY5MzM5LDg4NDIzMzBdfQ==
+eyJoaXN0b3J5IjpbLTQwODc4NzQyNiw4MjUxNjkzMzksODg0Mj
+MzMF19
 -->
