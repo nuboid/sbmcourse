@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 
-
-namespace MyApplication.ApplicationServices.DeliveryService.Controllers
+namespace MyResearch.ServiceDiscovery.Service001.Controllers
 {
     [ApiController]
     public class PingController : Controller
@@ -10,7 +9,7 @@ namespace MyApplication.ApplicationServices.DeliveryService.Controllers
         [HttpGet("api/ping")]
         public String GetPing()
         {
-            Console.WriteLine("PING Called "+ DateTime.Now.Ticks );
+            Console.WriteLine("PING Called " + DateTime.Now.Ticks);
             return "pong ";
         }
     }
