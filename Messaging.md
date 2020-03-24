@@ -29,13 +29,12 @@
 
     docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 
-    docker ps
-    docker stop *my_container*
+  
 
 Topic/Subscriptions
 
 [https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODc4NzQyNiw4MjUxNjkzMzksODg0Mj
-MzMF19
+eyJoaXN0b3J5IjpbLTMxMjYwMzQ5NSwtNDA4Nzg3NDI2LDgyNT
+E2OTMzOSw4ODQyMzMwXX0=
 -->
