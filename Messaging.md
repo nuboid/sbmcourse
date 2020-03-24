@@ -23,6 +23,18 @@
 
 [https://hub.docker.com/r/nuboid/generatebarcodeimage](https://hub.docker.com/r/nuboid/generatebarcodeimage)
 
+#### Pull
+
+docker pull nuboid/generatebarcodeimage:1.0
+
+## Run
+
+docker container run -it -p 5001:5001 --name generatebarcodecontainer nuboid/generatebarcodeimage:1.0
+
+## Test
+
+http://localhost:5001
+
 ## MessageBus
 
 ### RabbitMQ
@@ -43,6 +55,6 @@
 GOTO 2017, The Many Meanings of Event-Driven Architecture by Martin Fowler [https://www.youtube.com/watch?v=STKCRSUsyP0](https://www.youtube.com/watch?v=STKCRSUsyP0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwOTEzNjYwLC00MDg3ODc0MjYsODI1MT
-Y5MzM5LDg4NDIzMzBdfQ==
+eyJoaXN0b3J5IjpbMTMzNzc4ODY4MCwtNDA4Nzg3NDI2LDgyNT
+E2OTMzOSw4ODQyMzMwXX0=
 -->
