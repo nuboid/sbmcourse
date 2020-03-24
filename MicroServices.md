@@ -38,5 +38,5 @@
 
 [https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg1NDQwOCwtMzEyNjAzNDk1XX0=
+eyJoaXN0b3J5IjpbMTM5ODg1NDQwOF19
 -->
