@@ -23,7 +23,7 @@
 
 [https://hub.docker.com/r/nuboid/generatebarcodeimage](https://hub.docker.com/r/nuboid/generatebarcodeimage)
 
-## Event Driven Architecture
+## MessageBus
 
 ### RabbitMQ
 [https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -40,8 +40,8 @@
 
 ## Additional Watching
 
-[https://www.youtube.com/watch?v=STKCRSUsyP0](https://www.youtube.com/watch?v=STKCRSUsyP0)
+GOTO 2017, The Many Meanings of Event-Driven Architecture by Martin Fowler [https://www.youtube.com/watch?v=STKCRSUsyP0](https://www.youtube.com/watch?v=STKCRSUsyP0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MjYwODA5LDEzOTg4NTQ0MDhdfQ==
+eyJoaXN0b3J5IjpbNzUwOTEzNjYwXX0=
 -->
