@@ -19,21 +19,24 @@
 
 [https://en.wikipedia.org/wiki/CAP_theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 
+## How micro can a service be ?
 
-## RabbitMQ
+[https://hub.docker.com/r/nuboid/generatebarcodeimage](https://hub.docker.com/r/nuboid/generatebarcodeimage)
+
+## Event Driven Architecture
+
+### RabbitMQ
 [https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 
-## Docker Image
+### RabbitMQ Docker Image
 
 [https://registry.hub.docker.com/_/rabbitmq/](https://registry.hub.docker.com/_/rabbitmq/)
 
     docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 
-  
-
-Topic/Subscriptions
+ ### Azure ServiceBus Topic/Subscriptions
 
 [https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjYwMzQ5NV19
+eyJoaXN0b3J5IjpbMTM5ODg1NDQwOCwtMzEyNjAzNDk1XX0=
 -->
