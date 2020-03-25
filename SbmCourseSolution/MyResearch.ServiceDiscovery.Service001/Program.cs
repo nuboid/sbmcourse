@@ -1,14 +1,12 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-using MyApplication.ApplicationServices.DeliveryService;
 using System;
 
-namespace MyApplication.APIHost
+namespace MyResearch.ServiceDiscovery.Service001
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             if (args.Length == 0)
             {
@@ -20,12 +18,12 @@ namespace MyApplication.APIHost
                 var host = BuildWebHost(urls);
                 host.Run();
             }
-
         }
+
         public static IWebHost BuildWebHost(string urls)
         {
             //urls = "http://localhost:9001;https://localhost:10001";
-            return WebHost.CreateDefaultBuilder()                
+            return WebHost.CreateDefaultBuilder()
                 .UseStartup<Startup>()
                 .UseUrls(urls)
                 .Build();

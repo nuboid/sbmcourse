@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 
 namespace MyApplication.ApplicationServices.DeliveryService.Controllers
@@ -14,7 +10,8 @@ namespace MyApplication.ApplicationServices.DeliveryService.Controllers
         [HttpGet("api/ping")]
         public String GetPing()
         {
-            return "pong ";
+            Console.WriteLine("PING Called "+ DateTime.Now.Ticks + " on " + this.HttpContext.Request.Host );
+            return "pong from " + this.HttpContext.Request.Host;
         }
     }
 }

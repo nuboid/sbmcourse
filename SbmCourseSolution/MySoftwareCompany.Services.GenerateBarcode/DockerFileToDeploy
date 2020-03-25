@@ -1,0 +1,10 @@
+﻿FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
+
+WORKDIR /app
+EXPOSE 80
+
+ENV ASPNETCORE_URLS http://+:5001
+
+COPY . .
+ENTRYPOINT ["dotnet", "MySoftwareCompany.Services.GenerateBarcode.dll"]
+

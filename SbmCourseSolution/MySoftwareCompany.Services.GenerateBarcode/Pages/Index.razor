@@ -1,0 +1,44 @@
+﻿@page "/"
+@inject NavigationManager _navigationManager
+@using MySoftwareCompany.Services.GenerateBarcode.Controllers
+
+<h1>Nuboid.GenerateBarCode</h1>
+<br />
+Swagger : <a href="@SwaggerLink" target="_blank">@SwaggerLink</a>
+<br/>
+Example API : <a href="@ExampleLink" target="_blank">@ExampleLink</a>
+<br />
+<br />
+@*<p><b>status:</b> @Message</p>*@
+@code {
+
+    private string Message = "";
+    private string ExampleLink = "";
+    private string SwaggerLink = "";
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ExampleLink = _navigationManager.BaseUri + "api/barcode/FOOBAR12345";
+        SwaggerLink = _navigationManager.BaseUri + "swagger/index.html";
+    }
+
+    //public async Task TestService()
+    //{
+    //    try
+    //    {
+    //        var httpClient = new HttpClient();
+    //        var response = await httpClient.GetAsync(_navigationManager.BaseUri + @"api/ping");
+    //        response.EnsureSuccessStatusCode();
+    //        var content = await response.Content.ReadAsStringAsync();
+
+    //        Message = "OK";
+    //    }
+    //    catch (Exception ex)
+    //    {
+
+    //        Message = ex.ToString();
+    //    }
+    //}
+}
+
