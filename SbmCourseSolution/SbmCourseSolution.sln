@@ -106,9 +106,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyResearch.MongoDB", "MyRes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceDiscovery", "ServiceDiscovery", "{4EBBD23D-FA72-48A7-96BB-182E34390E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyResearch.ServiceDiscovery.Service001", "MyResearch.ServiceDiscovery.Service001\MyResearch.ServiceDiscovery.Service001.csproj", "{A8CD3DD3-489F-4D0F-AB54-33863226A6DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyResearch.ServiceDiscovery.Service001", "MyResearch.ServiceDiscovery.Service001\MyResearch.ServiceDiscovery.Service001.csproj", "{A8CD3DD3-489F-4D0F-AB54-33863226A6DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyResearch.ServiceDiscovery.Demo", "MyResearch.ServiceDiscovery.Demo\MyResearch.ServiceDiscovery.Demo.csproj", "{5AED888C-A539-44C1-9808-8621AE9AC02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyResearch.DockerDemos", "MyResearch.DockerDemos\MyResearch.DockerDemos.csproj", "{16E97EE5-8D06-4523-B2BB-935E69777968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -816,6 +818,30 @@ Global
 		{5AED888C-A539-44C1-9808-8621AE9AC02D}.Release|x64.Build.0 = Release|Any CPU
 		{5AED888C-A539-44C1-9808-8621AE9AC02D}.Release|x86.ActiveCfg = Release|Any CPU
 		{5AED888C-A539-44C1-9808-8621AE9AC02D}.Release|x86.Build.0 = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|ARM.Build.0 = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|x64.Build.0 = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Debug|x86.Build.0 = Debug|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|ARM.ActiveCfg = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|ARM.Build.0 = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|iPhone.Build.0 = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|x64.ActiveCfg = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|x64.Build.0 = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|x86.ActiveCfg = Release|Any CPU
+		{16E97EE5-8D06-4523-B2BB-935E69777968}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -871,6 +897,7 @@ Global
 		{4EBBD23D-FA72-48A7-96BB-182E34390E2F} = {1E38A988-E2C9-402A-9EB7-690570DC7CA9}
 		{A8CD3DD3-489F-4D0F-AB54-33863226A6DC} = {4EBBD23D-FA72-48A7-96BB-182E34390E2F}
 		{5AED888C-A539-44C1-9808-8621AE9AC02D} = {4EBBD23D-FA72-48A7-96BB-182E34390E2F}
+		{16E97EE5-8D06-4523-B2BB-935E69777968} = {ED0DBCC6-F6FF-4EAC-8D1C-F987A5E04509}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39973E6E-9EF3-42BD-9941-4C735DB6FBC8}
