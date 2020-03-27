@@ -6,6 +6,7 @@
 
 https://docs.docker.com/engine/reference/commandline/docker/
 
+### Examples
 
 	#Start Clean		
 	docker stop $(docker ps -a -q)
@@ -57,6 +58,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 ## Exercises
 ### Ex. 1
 
+https://labs.play-with-docker.com/
+
 	docker images
 	docker ps
 	docker ps -a
@@ -70,6 +73,10 @@ https://docs.docker.com/engine/reference/commandline/docker/
 
 	docker stop mycontainerinstance1
 	docker stop mycontainerinstance2
+
+# Also check out
+http://demo.portainer.io/#/containers
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ3NDM5OTJdfQ==
+eyJoaXN0b3J5IjpbMTA5MTc2NzA2MywtMTE0NDc0Mzk5Ml19
 -->
