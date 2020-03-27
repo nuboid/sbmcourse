@@ -11,6 +11,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 ## Start Clean
 
 	docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
 	docker system prune -a -f
 	docker images
 	#Should be empty
@@ -20,7 +21,6 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	#Start Clean		
 	docker stop $(docker ps -a -q)
 	docker rm $(docker ps -a -q)
-	docker rmi $( -q)
 	docker system prune -a
 	docker ps
 	docker ps -a
@@ -87,5 +87,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY4Njk4MDcsNzc1NTk2MzY1XX0=
+eyJoaXN0b3J5IjpbMTIwNjgyODIzXX0=
 -->
