@@ -71,6 +71,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker pull rabbitmq:3-management
 	docker pull nuboid/generatebarcodeimage:1.0
 	docker pull mongo
+	
 ## Exercises
 ### Ex. 1
 
@@ -94,5 +95,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDEyNDQ2MV19
+eyJoaXN0b3J5IjpbODg0NDgwMjUzXX0=
 -->
