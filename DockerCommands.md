@@ -64,6 +64,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
     COPY . .
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
+
 ## Exercises
 ### Ex. 1
 
@@ -87,5 +88,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjgyODIzXX0=
+eyJoaXN0b3J5IjpbLTE2MjczODY1OTksMTIwNjgyODIzXX0=
 -->
