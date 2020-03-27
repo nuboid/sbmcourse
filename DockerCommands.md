@@ -6,7 +6,7 @@
 
 https://docs.docker.com/engine/reference/commandline/docker/
 
-### Examples
+## Demo
 
 	#Start Clean		
 	docker stop $(docker ps -a -q)
@@ -44,7 +44,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
     
     docker rmi nuboid/mydockerimage:1.1
 
-# DockerFile
+#### DockerFile
     FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
     WORKDIR /app
@@ -78,5 +78,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTc2NzA2MywtMTE0NDc0Mzk5Ml19
+eyJoaXN0b3J5IjpbMTAyNjIyMzAwN119
 -->
