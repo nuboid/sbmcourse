@@ -13,6 +13,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker stop $(docker ps -a -q)
 	docker system prune -a -f
 	docker images
+	#Should be empty
 	
 ## Demo
 
@@ -86,5 +87,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1NTk2MzY1XX0=
+eyJoaXN0b3J5IjpbLTE1NzY4Njk4MDcsNzc1NTk2MzY1XX0=
 -->
