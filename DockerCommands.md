@@ -64,7 +64,13 @@ https://docs.docker.com/engine/reference/commandline/docker/
     COPY . .
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
+## Images needed
 
+	docker login
+	docker pull consul
+	docker pull rabbitmq:3-management
+	docker pull nuboid/generatebarcodeimage:1.0
+	docker pull mongo
 ## Exercises
 ### Ex. 1
 
@@ -88,5 +94,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjczODY1OTksMTIwNjgyODIzXX0=
+eyJoaXN0b3J5IjpbLTUzNDEyNDQ2MV19
 -->
