@@ -54,6 +54,22 @@ https://docs.docker.com/engine/reference/commandline/docker/
     COPY . .
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
+## Exercises
+### Ex. 1
+
+	docker images
+	docker ps
+	docker ps -a
+	docker pull nuboid/generatebarcodeimage:1.0
+
+	docker run -d -p 5001:5001 --name mycontainerinstance1 nuboid/generatebarcodeimage:1.0
+	docker run -d -p 5002:5001 --name mycontainerinstance2 nuboid/generatebarcodeimage:1.0
+
+	curl --verbose http://localhost:5001/api/barcode/Lorum
+	curl --verbose http://localhost:5002/api/barcode/Ipsum
+
+	docker stop mycontainerinstance1
+	docker stop mycontainerinstance2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzE0OTM1MV19
+eyJoaXN0b3J5IjpbLTExNDQ3NDM5OTJdfQ==
 -->
