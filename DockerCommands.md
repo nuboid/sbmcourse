@@ -100,6 +100,9 @@ http://demo.portainer.io/#/containers
 ## Volumes
 
     docker exec -it generatebarcodecontainer bash
+	docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername $imagename
+
+**-v //c/TMP/TESTDIR:/app/mydata**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk3MjEzOThdfQ==
+eyJoaXN0b3J5IjpbMTUyNjQxMjQwNV19
 -->
