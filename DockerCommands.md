@@ -108,9 +108,12 @@ http://demo.portainer.io/#/containers
 
     docker network ls
     docker network inspect bridge
-
+    docker network create --driver bridge mynetwork
     docker container run -it -p 6379:6379 --name rediscontainer --net mynetwork redis
+    docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername --net mynetwork $imagename
+   
+   **--net mynetwork**
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDM3NTc0LDE1MDUyMTQwMjJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODI1NDg4MjksMTUwNTIxNDAyMl19
 -->
