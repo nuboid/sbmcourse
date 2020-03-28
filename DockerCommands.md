@@ -118,7 +118,43 @@ http://demo.portainer.io/#/containers
     docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername --net mynetwork $imagename
     docker network rm mynetwork
 	--net mynetwork
+
+## Docker Compose
+
+filename : docker-compose.yml
+
+	version: '3.4'
+
+	services:
+	  
+	  web:
+	   image: "generatebarcodeimage"
+	   ports:
+	      - "5001:5001"
+	   volumes:
+	      - //c/TMP/TESTDIR:/app/mydata
+	   depends_on: 
+	     - rediscontainer
+	   networks:
+	     - mynetwork
+
+	  rediscontainer:
+	    image: "redis"
+	    ports:
+	       - "6379:6379"
+	    networks:
+	     - mynetwork
+
+	networks:
+
+	  mynetwork:
+
+
+   docker-compose up 
+
+
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA0NzE5MTddfQ==
+eyJoaXN0b3J5IjpbLTE4Njk4NDEyMzYsLTEzNjA0NzE5MTddfQ
+==
 -->
