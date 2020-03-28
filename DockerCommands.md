@@ -60,7 +60,6 @@ https://docs.docker.com/engine/reference/commandline/docker/
     FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 
     WORKDIR /app
-    EXPOSE 80
 
     ENV ASPNETCORE_URLS http://+:5000
 
@@ -115,5 +114,5 @@ http://demo.portainer.io/#/containers
 	--net mynetwork
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTQ1NDQwNywxNTA1MjE0MDIyXX0=
+eyJoaXN0b3J5IjpbLTE0MTk2OTY4NTddfQ==
 -->
