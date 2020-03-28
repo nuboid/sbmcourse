@@ -80,6 +80,8 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker pull mongo
 	docker pull redis
 	
+## Test Redis
+	docker container run -it -p 6379:6379 --name rediscontainer redis
 ## Exercises
 ### Ex. 1
 
@@ -155,5 +157,6 @@ filename : docker-compose.yml
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk4NDEyMzZdfQ==
+eyJoaXN0b3J5IjpbLTE2NzEwMDQxNTgsLTE4Njk4NDEyMzZdfQ
+==
 -->
