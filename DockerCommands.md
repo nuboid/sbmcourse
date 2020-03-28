@@ -97,6 +97,9 @@ https://labs.play-with-docker.com/
 # Also check out
 http://demo.portainer.io/#/containers
 
+## Volumes
+
+    docker exec -it generatebarcodecontainer bash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NjM1ODkwXX0=
+eyJoaXN0b3J5IjpbLTIwMjk3MjEzOThdfQ==
 -->
