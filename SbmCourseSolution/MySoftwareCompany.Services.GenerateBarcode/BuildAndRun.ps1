@@ -24,6 +24,6 @@ docker build -t $imagename -f $buildpath\Dockerfile $buildpath
 
 Remove-Item -LiteralPath $buildpath -Recurse
 
-docker container run -it  -p 5001:5001 --name $runningcontainername $imagename
+docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername $imagename
 
 

@@ -3,6 +3,7 @@ using Barcoder.Qr;
 using Barcoder.Renderer.Image;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
 using System.IO;
 
 namespace MySoftwareCompany.Services.GenerateBarcode.Controllers
@@ -25,6 +26,7 @@ namespace MySoftwareCompany.Services.GenerateBarcode.Controllers
         public IActionResult GetBarcode(string data)
         {
             _logger.LogInformation("GetBarcode " + data);
+            System.IO.File.WriteAllText(Environment.CurrentDirectory + @"/mydata/" + "file_" + DateTime.Now.Ticks + ".txt", data);
 
             var barcode = Code128Encoder.Encode(data, true);
             var renderer = new ImageRenderer();

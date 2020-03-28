@@ -15,6 +15,9 @@ namespace MySoftwareCompany.Services.GenerateBarcode
     {
         public static void Main(string[] args)
         {
+
+            Directory.CreateDirectory(Environment.CurrentDirectory + @"/mydata");
+
             CreateHostBuilder(args).Build().Run();
         }
 
