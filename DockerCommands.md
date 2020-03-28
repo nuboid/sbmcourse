@@ -104,9 +104,13 @@ http://demo.portainer.io/#/containers
 
 **-v //c/TMP/TESTDIR:/app/mydata**
 
-    docker container run -it -p 6379:6379 --name rediscontainer redis
+## Networks
+
     docker network ls
     docker network inspect bridge
+
+    docker container run -it -p 6379:6379 --name rediscontainer --net mynetwork redis
+    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTIxNDAyMl19
+eyJoaXN0b3J5IjpbLTQ2MDM3NTc0LDE1MDUyMTQwMjJdfQ==
 -->
