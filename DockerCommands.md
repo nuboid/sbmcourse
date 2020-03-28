@@ -70,6 +70,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 
     docker stop $(docker ps -a -q)
 	docker rm $(docker ps -a -q)
+	
 ## Images needed
 
 	docker login
@@ -115,9 +116,9 @@ http://demo.portainer.io/#/containers
     docker network create --driver bridge mynetwork
     docker container run -it -p 6379:6379 --name rediscontainer --net mynetwork redis
     docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername --net mynetwork $imagename
-   
+    docker network rm mynetwork
 	--net mynetwork
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDU3MTQ1MF19
+eyJoaXN0b3J5IjpbLTEzNjA0NzE5MTddfQ==
 -->
