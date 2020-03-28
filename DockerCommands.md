@@ -82,6 +82,9 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	
 ## Test Redis
 	docker container run -it -p 6379:6379 --name rediscontainer redis
+	docker exec rediscontainer bash
+	redis-cli
+	ping
 ## Exercises
 ### Ex. 1
 
@@ -157,6 +160,5 @@ filename : docker-compose.yml
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEwMDQxNTgsLTE4Njk4NDEyMzZdfQ
-==
+eyJoaXN0b3J5IjpbLTEzNjY5NTMxMjldfQ==
 -->
