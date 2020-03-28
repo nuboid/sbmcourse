@@ -1,3 +1,6 @@
+Start
+[https://docs.microsoft.com/en-us/dotnet/core/docker/build-container](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container)
+
 ## Docker Commands
 
     docker ps
@@ -95,5 +98,5 @@ https://labs.play-with-docker.com/
 http://demo.portainer.io/#/containers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NDgwMjUzXX0=
+eyJoaXN0b3J5IjpbMjM0NjM1ODkwXX0=
 -->
