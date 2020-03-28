@@ -103,6 +103,8 @@ http://demo.portainer.io/#/containers
 	docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername $imagename
 
 **-v //c/TMP/TESTDIR:/app/mydata**
+
+    docker container run -it -p 6379:6379 --name rediscontainer redis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjQxMjQwNV19
+eyJoaXN0b3J5IjpbMTc2NjUxNzMwMF19
 -->
