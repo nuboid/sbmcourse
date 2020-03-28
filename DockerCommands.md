@@ -102,7 +102,7 @@ http://demo.portainer.io/#/containers
     docker exec -it generatebarcodecontainer bash
 	docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername $imagename
 
-**-v //c/TMP/TESTDIR:/app/mydata**
+    -v //c/TMP/TESTDIR:/app/mydata
 
 ## Networks
 
@@ -112,8 +112,8 @@ http://demo.portainer.io/#/containers
     docker container run -it -p 6379:6379 --name rediscontainer --net mynetwork redis
     docker container run -it -v //c/TMP/TESTDIR:/app/mydata -p 5001:5001 --name $runningcontainername --net mynetwork $imagename
    
-   **--net mynetwork**
+	--net mynetwork
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI1NDg4MjksMTUwNTIxNDAyMl19
+eyJoaXN0b3J5IjpbMTMyMTQ1NDQwNywxNTA1MjE0MDIyXX0=
 -->
