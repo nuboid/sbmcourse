@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Caching.Distributed;
 using MySoftwareCompany.Services.GenerateBarcode.Data;
 
 namespace MySoftwareCompany.Services.GenerateBarcode
@@ -24,6 +25,12 @@ namespace MySoftwareCompany.Services.GenerateBarcode
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddStackExchangeRedisCache(option =>
+            {
+                //option.Configuration = "127.0.0.1";
+                option.Configuration = "rediscontainer";
+                option.InstanceName = "master";
+            });
 
             services.AddLogging();
 
