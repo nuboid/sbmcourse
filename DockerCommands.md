@@ -66,6 +66,10 @@ https://docs.docker.com/engine/reference/commandline/docker/
     COPY . .
     ENTRYPOINT ["dotnet", "MyResearch.WebApiInDocker.dll"]
 
+## Stop and remove all containers
+
+   docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
 ## Images needed
 
 	docker login
@@ -114,5 +118,6 @@ http://demo.portainer.io/#/containers
 	--net mynetwork
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk2OTY4NTddfQ==
+eyJoaXN0b3J5IjpbLTIwNDc5NzgzNzAsLTE0MTk2OTY4NTddfQ
+==
 -->
