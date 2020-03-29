@@ -80,6 +80,33 @@ https://docs.docker.com/engine/reference/commandline/docker/
 	docker pull mongo
 	docker pull redis
 	
+## Parent/Child images
+
+	docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
+
+	docker rmi mybaseimage
+	docker rmi mychildimage
+	docker rmi python:3-alpine
+	docker images
+
+	cd CreateBase
+	dir
+
+	docker build -t mybaseimage .
+	docker images
+
+	cd ..
+
+	cd CreateChild
+	docker build -t mychildimage .
+	docker images
+
+	cd ..
+	docker run --rm -it -p 8000:8000 mychildimage
+
+http://localhost:8000
+	
 ## Test Redis
 	docker container run -it -p 6379:6379 --name rediscontainer redis
 	docker exec rediscontainer bash
@@ -160,5 +187,5 @@ filename : docker-compose.yml
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY5NTMxMjldfQ==
+eyJoaXN0b3J5IjpbLTU3MTU2OTU4NV19
 -->
