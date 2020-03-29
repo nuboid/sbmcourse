@@ -1,0 +1,26 @@
+﻿docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+REM docker system prune -a -f
+
+docker rmi mybaseimage
+docker rmi mychildimage
+docker rmi python:3-alpine
+docker images
+
+cd CreateBase
+dir
+
+docker build -t mybaseimage .
+docker images
+
+cd ..
+
+cd CreateBase CreateChild
+docker build -t mychildimage .
+docker images
+
+cd ..
+docker run --rm -it -p 8000:8000 mychildimage
+
+http://localhost:8000

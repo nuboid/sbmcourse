@@ -1,0 +1,13 @@
+﻿FROM nuboid/baseservices:1.0 AS base
+
+WORKDIR /app
+
+ENV ASPNETCORE_URLS http://+:5001 
+EXPOSE 8001
+
+
+COPY . .
+
+ENTRYPOINT ["dotnet", "MySoftwareCompany.Services.GenerateBarcode.dll"]
+#CMD "dotnet app/MySoftwareCompany.Services.GenerateBarcode.dll"
+
