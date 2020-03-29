@@ -1,8 +1,6 @@
 ﻿docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 
-REM docker system prune -a -f
-
 docker rmi mybaseimage
 docker rmi mychildimage
 docker rmi python:3-alpine
@@ -16,7 +14,7 @@ docker images
 
 cd ..
 
-cd CreateBase CreateChild
+cd CreateChild
 docker build -t mychildimage .
 docker images
 

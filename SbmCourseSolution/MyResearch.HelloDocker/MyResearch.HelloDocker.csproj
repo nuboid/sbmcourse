@@ -34,21 +34,11 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="CreateBase\.dockerignore" />
-    <None Include="CreateBase\.gitignore" />
     <None Include="CreateBase\Dockerfile" />
-    <None Include="CreateBase\LICENSE" />
-    <None Include="CreateBase\README.md" />
-    <None Include="CreateChild\.dockerignore" />
-    <None Include="CreateChild\.gitignore" />
     <None Include="CreateChild\Dockerfile" />
-    <None Include="CreateChild\LICENSE" />
-    <None Include="CreateChild\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CreateBase\requirements.txt" />
-    <Content Include="CreateBase\server.py" />
-    <Content Include="CreateChild\requirements.txt" />
     <Content Include="CreateChild\server.py" />
     <Content Include="DemoScript.txt" />
   </ItemGroup>
