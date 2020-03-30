@@ -5,6 +5,8 @@ namespace MyApplication.DomainModel.CustomerAggregate
 {
     public class DeliveryAddress : BaseEntity
     {
+
+        public Customer Customer { get; set; }
         public string CustomerId { get; set; }
         public AddressStruct Address { get; set; }
         public string LockCode { get; set; }

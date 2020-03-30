@@ -34,7 +34,13 @@ namespace MyApplication.Infrastructure.EntityFramework
         {
             //Set ValueObjects
             modelBuilder.Entity<DeliveryAddress>().OwnsOne(c => c.Address);
-            //modelBuilder.Entity<DeliveryPart>().OwnsOne(c => c.ProductIds);
+
+            //Set cascading delete
+            modelBuilder.Entity<DeliveryAddress>()
+                .HasOne(c => c.Customer)
+                .WithMany(x=>x.DeliveryAddresses)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
 
 
