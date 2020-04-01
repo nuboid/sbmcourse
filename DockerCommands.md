@@ -184,8 +184,39 @@ filename : docker-compose.yml
 
    docker-compose up 
 
+## Demo in portainer
 
+	version: '3.2'
+
+	services:
+	  
+	  web:
+	   image: "nuboid/generatebarcodeimage:1.0"
+	   ports:
+	     - target: 5002
+	       published: 5001
+	       protocol: tcp
+	       mode: host
+	  
+	   depends_on: 
+	     - rediscontainer
+	   networks:
+	     - mynetwork
+
+	  rediscontainer:
+	    image: "redis"
+	    ports:
+	      - target: 6379
+	        published: 6379
+	        protocol: tcp
+	        mode: host
+	    networks:
+	     - mynetwork
+
+	networks:
+
+	  mynetwork:
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTU2OTU4NV19
+eyJoaXN0b3J5IjpbMTM2OTE2NzcyNF19
 -->
