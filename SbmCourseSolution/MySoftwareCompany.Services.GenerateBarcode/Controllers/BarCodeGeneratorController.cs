@@ -37,7 +37,7 @@ namespace MySoftwareCompany.Services.GenerateBarcode.Controllers
             var cachedString = _distributedCache.GetString("TEST");
             if (string.IsNullOrEmpty(cachedString))
             {
-                _distributedCache.SetString("TEST","somevaluetocache");
+                _distributedCache.SetString("TEST", "somevaluetocache");
                 _logger.LogInformation("Was not found, ... but now set.");
             }
             else

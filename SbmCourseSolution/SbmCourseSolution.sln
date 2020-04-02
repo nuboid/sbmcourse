@@ -114,7 +114,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyResearch.DockerDemos", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyResearch.HelloDocker", "MyResearch.HelloDocker\MyResearch.HelloDocker.csproj", "{A9F25D97-8F8C-441B-A1C8-A290AAAEA0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApplication.RepositoryTests", "MyApplication.RepositoryTests\MyApplication.RepositoryTests.csproj", "{A66729F1-613D-47E1-80E6-3D00B840DA08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApplication.RepositoryTests", "MyApplication.RepositoryTests\MyApplication.RepositoryTests.csproj", "{A66729F1-613D-47E1-80E6-3D00B840DA08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
