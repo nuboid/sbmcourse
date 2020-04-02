@@ -1,0 +1,25 @@
+﻿version: '3.4'
+
+services:
+  
+  web:
+   image: "generatebarcodeimage"
+   ports:
+      - "5001:5001"
+   volumes:
+      - //c/TMP/TESTDIR:/app/mydata
+   depends_on: 
+     - rediscontainer
+   networks:
+     - mynetwork
+
+  rediscontainer:
+    image: "redis"
+    ports:
+       - "6379:6379"
+    networks:
+     - mynetwork
+
+networks:
+
+  mynetwork:

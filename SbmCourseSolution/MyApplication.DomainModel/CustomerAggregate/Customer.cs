@@ -11,11 +11,14 @@ namespace MyApplication.DomainModel.CustomerAggregate
         public string Name { get; set; }
         public string City { get; set; }
 
-        private readonly List<DeliveryAddress> _deliveryAddresses = new List<DeliveryAddress>();
-        
-        public IEnumerable<DeliveryAddress> DeliveryAddresses
+        //private readonly List<DeliveryAddress> _deliveryAddresses = new List<DeliveryAddress>();
+        private List<DeliveryAddress> _deliveryAddresses = new List<DeliveryAddress>();
+
+        //public IEnumerable<DeliveryAddress> DeliveryAddresses
+        public List<DeliveryAddress> DeliveryAddresses
         {
-            get { return new ReadOnlyCollection<DeliveryAddress>(_deliveryAddresses); }
+            //get { return new ReadOnlyCollection<DeliveryAddress>(_deliveryAddresses); }
+            get { return _deliveryAddresses; }
         }
 
         public bool IsExpressCustomer { get; set; }

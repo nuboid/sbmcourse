@@ -15,6 +15,9 @@ namespace MySoftwareCompany.Services.GenerateBarcode
     {
         public static void Main(string[] args)
         {
+
+            Directory.CreateDirectory(Environment.CurrentDirectory + @"/mydata");
+
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -22,7 +25,10 @@ namespace MySoftwareCompany.Services.GenerateBarcode
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>().ConfigureLogging(logging => {
+                        logging.ClearProviders();
+                        logging.AddConsole();
+                    });
                 });
     }
 }
