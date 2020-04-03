@@ -11,6 +11,10 @@ namespace MyResearch.MongoDB
 {
     class Program
     {
+
+        //docker run -d -it -p 27017:27017 mongo
+        //ConnectionString
+        //mongodb://localhost:27017
         static void Main(string[] args)
         {
             Console.WriteLine("MongoDB");

@@ -19,7 +19,7 @@ namespace MyReseach.QueueListener
             Console.ForegroundColor = ConsoleColor.White;
             if (args.Length==0)
             {
-                Console.WriteLine("please specify the QueueName as argument.");
+                Console.WriteLine("please specify the QueueName as argument!");
             }
             else
             {
