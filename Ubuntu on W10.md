@@ -8,15 +8,17 @@ Enable Linux with Powershell (open PS with admin privileges)
 	Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 
-Nreboot machine
-open command prompt
+### Now reboot machine
+
+open command prompt and type :
 
 	ubuntu
-Ubuntu ... create username and pasword
+	
+-> create username and pasword
 
 -> on W10 create a C:\TMP folder
 
-Ubuntu
+### Inside Ubuntu
 
     cat /etc/*-release
     cd /mnt/c
@@ -27,5 +29,5 @@ Ubuntu
     dotnet
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc3NjkyOCw3ODcxMzY2MjRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzIwNTgzNDddfQ==
 -->
