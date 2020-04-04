@@ -6,7 +6,9 @@ Powershell (with admin)
 
 	Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
-reboot machine
+-> reboot machine
+
+-> on W10 create a C:\TMP folder
 
 Ubuntu
 
@@ -19,5 +21,5 @@ Ubuntu
     dotnet
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3MTM2NjI0XX0=
+eyJoaXN0b3J5IjpbLTE2Mjc0MjAyMzAsNzg3MTM2NjI0XX0=
 -->
