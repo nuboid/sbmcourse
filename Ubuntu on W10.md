@@ -24,10 +24,10 @@ open command prompt and type :
     cd /mnt/c
     cd TMP
     mkdir linuxmount
-    cd /mnt/c/TMP/linuxmountls    
+    cd /mnt/c/TMP/linuxmount
     ls
     dotnet
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzIwNTgzNDddfQ==
+eyJoaXN0b3J5IjpbLTExNzU1MTIyNjBdfQ==
 -->
