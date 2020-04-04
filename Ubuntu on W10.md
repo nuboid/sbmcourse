@@ -14,10 +14,10 @@ Ubuntu
     cd /mnt/c
     cd TMP
     mkdir linuxmount
-    cd /mnt/c/TMP/linuxmountls
-    
+    cd /mnt/c/TMP/linuxmountls    
     ls
+    dotnet
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNTQwMDY4LDY2NTM2MzUzNF19
+eyJoaXN0b3J5IjpbNzg3MTM2NjI0XX0=
 -->
