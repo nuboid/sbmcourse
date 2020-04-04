@@ -11,6 +11,13 @@ reboot machine
 Ubuntu
 
     cat /etc/*-release
+    cd /mnt/c
+    cd TMP
+    mkdir linuxmount
+    cd /mnt/c/TMP/linuxmountls
+    
+    ls
+    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1MzYzNTM0XX0=
+eyJoaXN0b3J5IjpbOTYzNTQwMDY4LDY2NTM2MzUzNF19
 -->
