@@ -9,6 +9,8 @@ Powershell (with admin)
 reboot machine
 
 Ubuntu
+
+    cat /etc/*-release
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODMxODE2Nl19
+eyJoaXN0b3J5IjpbNjY1MzYzNTM0XX0=
 -->
