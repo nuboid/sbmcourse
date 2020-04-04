@@ -1,13 +1,14 @@
-Dhttps://ubuntu.com/tutorials/tutorial-ubuntu-on-windows
+# Install Ubuntu (Linux) on W10
+Follow instructions on   https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows
 
-see : https://docs.microsoft.com/en-us/windows/wsl/install-win10
+Also see : https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-Powershell (with admin)
+Enable Linux with Powershell (open PS with admin privileges)
 
 	Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 
--> reboot machine
+Nreboot machine
 open command prompt
 
 	ubuntu
@@ -26,5 +27,5 @@ Ubuntu
     dotnet
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE1MTUyNDAsNzg3MTM2NjI0XX0=
+eyJoaXN0b3J5IjpbLTEzMDc3NjkyOCw3ODcxMzY2MjRdfQ==
 -->
