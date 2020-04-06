@@ -1,0 +1,13 @@
+﻿query {
+ authors {
+  id,
+  name
+ }
+}
+
+query {
+ author(id:"10") {
+  id,
+  name
+ }
+}
