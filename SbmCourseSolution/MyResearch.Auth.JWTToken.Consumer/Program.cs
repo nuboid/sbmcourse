@@ -48,7 +48,10 @@ namespace MyResearch.Auth.JWTToken.Consumer
                                                   validationParameters,
                                                   out validatedToken);
 
+                
                 Console.WriteLine(validatedToken.ToString());
+                Console.WriteLine();
+                Console.WriteLine("Identity.Name : " +user.Identity.Name);
                 Console.WriteLine();
                 Console.WriteLine("Has Claim1 : " + user.HasClaim(c => c.Type == "SomeClaim1"));
                 Console.WriteLine("Value of Claim2 : " + user.Claims.Where(c => c.Type == "SomeClaim2").FirstOrDefault().Value);

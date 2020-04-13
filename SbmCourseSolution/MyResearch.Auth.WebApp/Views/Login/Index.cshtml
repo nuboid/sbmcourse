@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Login</h1>
+
+<form action="/Home/Login" method="post">
+
+    <table style="width:230px">
+
+        <tr>
+            <td><div style="width:80px">UserName</div></td>
+            <td><input style="width:150px" type="text" name="username" value="" /></td>
+        </tr>
+        <tr>
+            <td><div style="width:80px">Password</div></td>
+            <td><input style="width:150px" type="password" name="password" value="" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">  <button style="width:233px" type="submit">Login</button></td>
+        </tr>
+    </table>
+</form>
