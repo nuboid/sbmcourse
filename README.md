@@ -1,7 +1,11 @@
 # Architecting Microservices and cross platform apps in .NET Core 3.x on Azure
 
 Spring 2020 edition
-version : 18/03
+version : 15/04
+
+
+[https://excalidraw.com/](https://excalidraw.com/)
+
 
 **Door de Corona-maatregelen zal op 18/03 de les online gegeven worden.
 Check aub de mail van SBM voor meer info en de link naar het online platform.**
@@ -33,5 +37,5 @@ open `SbmCourseSolution.sln` in Visual Studio
 update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUzNTM4NjNdfQ==
+eyJoaXN0b3J5IjpbLTE2MTE4NjcxNDhdfQ==
 -->
