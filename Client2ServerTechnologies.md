@@ -74,12 +74,21 @@ Using [http://json2csharp.com/](http://json2csharp.com/)
 [https://github.com/RicoSuter/NSwag/wiki/NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
 
 Still code first approach ...
-## Open API Specificatio
+## Open API Specification
+
+https://en.wikipedia.org/wiki/OpenAPI_Specification
+https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-released
+
+[https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml)
+
+[https://editor.swagger.io/](https://editor.swagger.io/)
+
+### Use Visual Studio Code
 
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMDkwMDY3LDE1OTY1NTE5ODMsLTU5OD
-AxOTI0OV19
+eyJoaXN0b3J5IjpbLTExMDg5MTkyOTMsMTU5NjU1MTk4MywtNT
+k4MDE5MjQ5XX0=
 -->
