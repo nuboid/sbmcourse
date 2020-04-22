@@ -64,7 +64,8 @@ HTTP was a protocol to transport webpages.
 https://en.wikipedia.org/wiki/Representational_state_transfer
 https://restfulapi.net/http-status-codes/
 https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.itoa.ref/topics/ref_rest_headers_codes.html
-https://mmikowski.github.io/the_lie/
+
+https://mmikowski.github.io/the_lie/ (opiniated !, but has some truth)
  
 https://en.wikipedia.org/wiki/Boilerplate_code
 
@@ -116,5 +117,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTY2OTY2Ml19
+eyJoaXN0b3J5IjpbOTU3MjY4MjA1XX0=
 -->
