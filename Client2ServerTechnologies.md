@@ -98,18 +98,19 @@ Using [http://json2csharp.com/](http://json2csharp.com/)
 ### Swagger in .NET Fw
 [http://wmpratt.com/swagger-and-asp-net-web-api-part-1/](http://wmpratt.com/swagger-and-asp-net-web-api-part-1/)
 
-Nice, but still coe
+Nice, metadata, OK ...but **still code first approach.**
 
 ### NSwagStudio
+
+Generating code.
 
 [https://github.com/RicoSuter/NSwag/wiki/NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
 
 https://github.com/RicoSuter/NSwag/tree/master/src/NSwag.CodeGeneration.CSharp/Templates
 
-Still code first approach ...
 ## Open API Specification
 
-Metadata first
+Finaly **metadata first** !
 
 https://en.wikipedia.org/wiki/OpenAPI_Specification
 https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-released
@@ -151,5 +152,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5Mjk1NjkxLDk1NzI2ODIwNV19
+eyJoaXN0b3J5IjpbNzcwODgzODMyLDk1NzI2ODIwNV19
 -->
