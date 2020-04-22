@@ -136,21 +136,26 @@ https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer
 
 https://grpc.io/
 
+Lightweight, no overhead, no boilertemplate code, cross platform.
+
+Pure **metadata first approach**
+
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-3.1&tabs=visual-studio
 
 Code is generated 'magically', for both
 - client
 - server
 
-ProtoBuff Serialization
+ProtoBuff Serialization (not human readable, fast)
 
 No complete support for Browser clients.
 
 ## Refit
 
+Back to REST/WebApi
 https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwODgzODMyLDk1NzI2ODIwNV19
+eyJoaXN0b3J5IjpbLTE5MDExMjcwMjQsOTU3MjY4MjA1XX0=
 -->
