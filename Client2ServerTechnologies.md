@@ -62,6 +62,11 @@ https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/generating
 (failed) attempt for client side orchestrated transaction management.
 
 XML only payload
+
+### WCF in .Net Core
+
+[https://dotnetfoundation.org/blog/2019/06/07/welcoming-core-wcf-to-the-net-foundation](https://dotnetfoundation.org/blog/2019/06/07/welcoming-core-wcf-to-the-net-foundation)
+
  
 ## REST
 HTTP was created as a a protocol to transport webpages.
@@ -165,5 +170,5 @@ https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-
 Favorite for Mobile Xamarin apps !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NTc0NTI2XX0=
+eyJoaXN0b3J5IjpbMTI2ODgxMjQ5OSwyMTk1NzQ1MjZdfQ==
 -->
