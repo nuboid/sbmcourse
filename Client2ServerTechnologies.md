@@ -18,9 +18,13 @@ History ...
 ## Perspectives
 
  - Developer Productivity
-	 - who's
+	 - who's consuming the API's ? 
+	 - are they on the same technology stack / platform ?
+ - Platform / Technology Stack 
+   - .NET
+   - J
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTE4ODc4NSw4MTQ4NDMzNF19
+eyJoaXN0b3J5IjpbLTkxMTAyMjAwNCw4MTQ4NDMzNF19
 -->
