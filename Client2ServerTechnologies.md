@@ -52,12 +52,16 @@ How we exchange metadata ....
  
 https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/generating-a-wcf-client-from-service-metadata
  
- Attempt for client side orchestrated transaction management.
+(failed) attempt for client side orchestrated transaction management.
+
+XML only payload
  
 ## REST
 HTTP was a protocol to transport webpages.
 
 [https://en.wikipedia.org/wiki/Roy_Fielding](https://en.wikipedia.org/wiki/Roy_Fielding)
+
+XML or JSON Payloads.
 
 ### Overhead of REST 
 
@@ -109,6 +113,12 @@ https://grpc.io/
 
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-3.1&tabs=visual-studio
 
+Code is generated 'magically', for both
+- client
+- server
+
+ProtoBuff Serialization
+
 No complete support for Browser clients.
 
 ## Refit
@@ -117,5 +127,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MjY4MjA1XX0=
+eyJoaXN0b3J5IjpbOTIxNjUyNjMsOTU3MjY4MjA1XX0=
 -->
