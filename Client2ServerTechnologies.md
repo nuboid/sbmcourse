@@ -44,10 +44,14 @@ How we exchange metadata ....
  SOAP stack
  .wsdl / XSD
  Visual Studio ... Add Service Reference ...
- Why not just share the Interface
+ Why not just share the Interface and use ClientBase<T>
+ Attempt for client side orchestrated transaction management.
+ 
+## REST
+
  
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0ODMzODMyLDgxNDg0MzM0XX0=
+eyJoaXN0b3J5IjpbLTU5ODAxOTI0OV19
 -->
