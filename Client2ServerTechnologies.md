@@ -63,9 +63,19 @@ https://mmikowski.github.io/the_lie/
 https://en.wikipedia.org/wiki/Boilerplate_code
 
 Exchanging metadata in REST ?
+Look at [https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/](https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/)
+
+Using [http://json2csharp.com/](http://json2csharp.com/)
+
+Swagger in .NET Fw
+
+### NSwagStudio
+
+[https://github.com/RicoSuter/NSwag/wiki/NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjU1MTk4MywtNTk4MDE5MjQ5XX0=
+eyJoaXN0b3J5IjpbODE2NTYwNjE4LDE1OTY1NTE5ODMsLTU5OD
+AxOTI0OV19
 -->
