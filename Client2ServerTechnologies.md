@@ -45,16 +45,27 @@ How we exchange metadata ....
  .wsdl / XSD
  Visual Studio ... Add Service Reference ...
  Why not just share the Interface and use ClientBase<T>
+https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/generating-a-wcf-client-from-service-metadata
  Attempt for client side orchestrated transaction management.
  
 ## REST
 HTTP was a protocol to transport webpages.
+
 [https://en.wikipedia.org/wiki/Roy_Fielding](https://en.wikipedia.org/wiki/Roy_Fielding)
+
 Overhead of REST 
 
+https://en.wikipedia.org/wiki/Representational_state_transfer
+https://restfulapi.net/http-status-codes/
+https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.itoa.ref/topics/ref_rest_headers_codes.html
+https://mmikowski.github.io/the_lie/
  
+https://en.wikipedia.org/wiki/Boilerplate_code
+
+Exchanging metadata in REST ?
+
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMzNjU5NTMsLTU5ODAxOTI0OV19
+eyJoaXN0b3J5IjpbMTU5NjU1MTk4MywtNTk4MDE5MjQ5XX0=
 -->
