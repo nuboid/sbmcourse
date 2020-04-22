@@ -97,9 +97,18 @@ https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer
 
 ## gRPC
 
-   
+https://grpc.io/
 
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-3.1&tabs=visual-studio
+
+No complete support for Browser clients.
+
+## Refit
+
+https://github.com/reactiveui/refit
+
+https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODU5NjU4NSwxNTk2NTUxOTgzLC01OT
-gwMTkyNDldfQ==
+eyJoaXN0b3J5IjpbNTgwNDI0NTY0LDE1OTY1NTE5ODMsLTU5OD
+AxOTI0OV19
 -->
