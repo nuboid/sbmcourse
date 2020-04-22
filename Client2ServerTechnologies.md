@@ -48,10 +48,13 @@ How we exchange metadata ....
  Attempt for client side orchestrated transaction management.
  
 ## REST
+HTTP was a protocol to transport webpages.
+[https://en.wikipedia.org/wiki/Roy_Fielding](https://en.wikipedia.org/wiki/Roy_Fielding)
+Overhead of REST 
 
  
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODAxOTI0OV19
+eyJoaXN0b3J5IjpbLTE4MjMzNjU5NTMsLTU5ODAxOTI0OV19
 -->
