@@ -152,10 +152,14 @@ No complete support for Browser clients.
 
 ## Refit
 
-Back to REST/WebApi
+Back to REST/WebApi's ... Contract first (in code) approach comparable to WCF
+
 https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
+
+Favorite for Mobile Xamarin apps !
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDExMjcwMjQsOTU3MjY4MjA1XX0=
+eyJoaXN0b3J5IjpbLTExMTMxODM0NjJdfQ==
 -->
