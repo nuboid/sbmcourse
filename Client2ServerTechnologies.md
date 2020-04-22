@@ -13,8 +13,14 @@ Need for
 
 **WCF (SOAP), REST, gRPC**
 
-H
+History ...
+
+## Perspectives
+
+ - Developer Productivity
+	 - who's
+   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM1NTQwOTYsODE0ODQzMzRdfQ==
+eyJoaXN0b3J5IjpbMTIxOTE4ODc4NSw4MTQ4NDMzNF19
 -->
