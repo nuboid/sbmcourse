@@ -73,8 +73,12 @@ Using [http://json2csharp.com/](http://json2csharp.com/)
 
 [https://github.com/RicoSuter/NSwag/wiki/NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
 
+https://github.com/RicoSuter/NSwag/tree/master/src/NSwag.CodeGeneration.CSharp/Templates
+
 Still code first approach ...
 ## Open API Specification
+
+Metadata first
 
 https://en.wikipedia.org/wiki/OpenAPI_Specification
 https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-released
@@ -85,10 +89,17 @@ https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-relea
 
 ### Use Visual Studio Code
 
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi
+
+https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer
+
+## gRPC
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg5MTkyOTMsMTU5NjU1MTk4MywtNT
-k4MDE5MjQ5XX0=
+eyJoaXN0b3J5IjpbMTI1ODU5NjU4NSwxNTk2NTUxOTgzLC01OT
+gwMTkyNDldfQ==
 -->
