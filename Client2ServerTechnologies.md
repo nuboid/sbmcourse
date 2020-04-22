@@ -14,7 +14,8 @@ Need for
 **WCF (SOAP), REST, gRPC**
 
 History ...
-How we ex
+How we exchange metadata ....
+
 ## Perspectives
 
  - Developer Productivity
@@ -28,10 +29,18 @@ How we ex
    - Mobile 
   - Code first vs. Metadata first 
  - Who's the client ?
- -  Building an API for your own app ?
- - 
+   - Building an API for your own app ?
+   - Building an API for 3th Party consumers ?
+     - Custom
+     - Generic
+
+## WCF
+
+ SOAP stack
+ .wsdl
+ 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzI0NTA4Myw4MTQ4NDMzNF19
+eyJoaXN0b3J5IjpbMTYxMzg4MjczMCw4MTQ4NDMzNF19
 -->
