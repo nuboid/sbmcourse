@@ -81,15 +81,24 @@ https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.itoa.ref
 
 https://mmikowski.github.io/the_lie/ (opiniated !, but has some truth)
  
+ #### Developing experience ...
 https://en.wikipedia.org/wiki/Boilerplate_code
 
 ### Exchanging metadata in REST ?
+
+No support for Address-Binding-Contract principle.
+No support for metadata.
+
 Look at [https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/](https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/)
+
+Manually ...
 
 Using [http://json2csharp.com/](http://json2csharp.com/)
 
 ### Swagger in .NET Fw
 [http://wmpratt.com/swagger-and-asp-net-web-api-part-1/](http://wmpratt.com/swagger-and-asp-net-web-api-part-1/)
+
+Nice, but still coe
 
 ### NSwagStudio
 
@@ -142,5 +151,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzM5MTY0Niw5NTcyNjgyMDVdfQ==
+eyJoaXN0b3J5IjpbMjc5Mjk1NjkxLDk1NzI2ODIwNV19
 -->
