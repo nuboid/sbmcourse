@@ -132,6 +132,8 @@ https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-relea
 
 [https://editor.swagger.io/](https://editor.swagger.io/)
 
+[http://openapi-map.apihandyman.io/](http://openapi-map.apihandyman.io/)
+
 Support for :
  - documentation
  - api gateways / routing
@@ -174,5 +176,5 @@ https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-
 Favorite for Mobile Xamarin apps !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY4NjE3OTVdfQ==
+eyJoaXN0b3J5IjpbLTUzMjExNzMxNF19
 -->
