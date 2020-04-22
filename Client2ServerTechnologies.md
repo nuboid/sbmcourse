@@ -53,7 +53,7 @@ HTTP was a protocol to transport webpages.
 
 [https://en.wikipedia.org/wiki/Roy_Fielding](https://en.wikipedia.org/wiki/Roy_Fielding)
 
-Overhead of REST 
+### Overhead of REST 
 
 https://en.wikipedia.org/wiki/Representational_state_transfer
 https://restfulapi.net/http-status-codes/
@@ -62,20 +62,24 @@ https://mmikowski.github.io/the_lie/
  
 https://en.wikipedia.org/wiki/Boilerplate_code
 
-Exchanging metadata in REST ?
+### Exchanging metadata in REST ?
 Look at [https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/](https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/)
 
 Using [http://json2csharp.com/](http://json2csharp.com/)
 
-Swagger in .NET Fw
+### Swagger in .NET Fw
 
 ### NSwagStudio
 
 [https://github.com/RicoSuter/NSwag/wiki/NSwagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio)
 
+Still code first approach ...
+## Open API Specificatio
+
+
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NTYwNjE4LDE1OTY1NTE5ODMsLTU5OD
+eyJoaXN0b3J5IjpbNTUzMDkwMDY3LDE1OTY1NTE5ODMsLTU5OD
 AxOTI0OV19
 -->
