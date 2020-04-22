@@ -69,6 +69,8 @@ XML only payload
 
 [https://github.com/CoreWCF/CoreWCF](https://github.com/CoreWCF/CoreWCF)
 
+[https://devblogs.microsoft.com/premier-developer/grpc-asp-net-core-as-a-migration-path-for-wcfs-in-net-core/](https://devblogs.microsoft.com/premier-developer/grpc-asp-net-core-as-a-migration-path-for-wcfs-in-net-core/)
+
  
 ## REST
 HTTP was created as a a protocol to transport webpages.
@@ -172,6 +174,5 @@ https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-
 Favorite for Mobile Xamarin apps !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzI3NjAwNiwxMjY4ODEyNDk5LDIxOT
-U3NDUyNl19
+eyJoaXN0b3J5IjpbLTEyMjY4NjE3OTVdfQ==
 -->
