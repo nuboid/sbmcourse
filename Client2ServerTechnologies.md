@@ -82,7 +82,9 @@ https://restfulapi.net/http-status-codes/
 https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.itoa.ref/topics/ref_rest_headers_codes.html
 
 https://mmikowski.github.io/the_lie/ (opiniated !, but has some truth)
- 
+
+[https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418)
+
  #### Developing experience ...
 https://en.wikipedia.org/wiki/Boilerplate_code
 
@@ -163,5 +165,5 @@ https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-
 Favorite for Mobile Xamarin apps !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMxODEwNjFdfQ==
+eyJoaXN0b3J5IjpbMjE5NTc0NTI2XX0=
 -->
