@@ -45,6 +45,10 @@ How we exchange metadata ....
 
  SOAP stack
  
+ Adress - Binding - Contract principle
+ 
+ XSD driven design of datacontracts
+ 
  .wsdl / XSD
  
  Visual Studio ... Add Service Reference ...
@@ -58,7 +62,7 @@ https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/generating
 XML only payload
  
 ## REST
-HTTP was a protocol to transport webpages.
+HTTP was created as a a protocol to transport webpages.
 
 [https://en.wikipedia.org/wiki/Roy_Fielding](https://en.wikipedia.org/wiki/Roy_Fielding)
 
@@ -103,7 +107,7 @@ https://www.openapis.org/blog/2017/03/01/openapi-spec-3-implementers-draft-relea
 Support for :
  - documentation
  - api gateways / routing
- - s
+ - seeing the dependencies on enterprise level
 
 ### Use Visual Studio Code
 
@@ -133,5 +137,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTE2MDA0NCw5NTcyNjgyMDVdfQ==
+eyJoaXN0b3J5IjpbLTYzMTgzNTM0MSw5NTcyNjgyMDVdfQ==
 -->
