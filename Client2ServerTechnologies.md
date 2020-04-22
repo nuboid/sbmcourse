@@ -1,12 +1,11 @@
-# Client to Server Technologies
+# Client to Server 
 
-Client								Server 
-	Mobile							Exposing 'functionality' and/or 'dataresources
-	Desktop
-	Web
-| Client		 | Server |
+|
+|Client  |Server  |
 |--|--|
+|Mobile, Desktop, WebApp | Exposing 
+|  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjU3NzQxMyw4MTQ4NDMzNF19
+eyJoaXN0b3J5IjpbLTM2NTU3OTEwMCw4MTQ4NDMzNF19
 -->
