@@ -68,10 +68,15 @@ HTTP was created as a a protocol to transport webpages.
 
 XML or JSON Payloads.
 
+Promise of caching.
+Client Cookies ...
+
 ### Overhead of REST 
 
 https://en.wikipedia.org/wiki/Representational_state_transfer
+#### Status Codes (Chaos)
 https://restfulapi.net/http-status-codes/
+#### Request/Response Headers
 https://www.ibm.com/support/knowledgecenter/en/SSQP76_8.7.1/com.ibm.odm.itoa.ref/topics/ref_rest_headers_codes.html
 
 https://mmikowski.github.io/the_lie/ (opiniated !, but has some truth)
@@ -137,5 +142,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTgzNTM0MSw5NTcyNjgyMDVdfQ==
+eyJoaXN0b3J5IjpbLTM1NzM5MTY0Niw5NTcyNjgyMDVdfQ==
 -->
