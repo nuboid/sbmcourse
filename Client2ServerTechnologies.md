@@ -67,6 +67,8 @@ XML only payload
 
 [https://dotnetfoundation.org/blog/2019/06/07/welcoming-core-wcf-to-the-net-foundation](https://dotnetfoundation.org/blog/2019/06/07/welcoming-core-wcf-to-the-net-foundation)
 
+[https://github.com/CoreWCF/CoreWCF](https://github.com/CoreWCF/CoreWCF)
+
  
 ## REST
 HTTP was created as a a protocol to transport webpages.
@@ -170,5 +172,6 @@ https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-
 Favorite for Mobile Xamarin apps !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODgxMjQ5OSwyMTk1NzQ1MjZdfQ==
+eyJoaXN0b3J5IjpbMTU0MzI3NjAwNiwxMjY4ODEyNDk5LDIxOT
+U3NDUyNl19
 -->
