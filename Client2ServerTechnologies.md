@@ -14,7 +14,7 @@ Need for
 **WCF (SOAP), REST, gRPC**
 
 History ...
-
+How we ex
 ## Perspectives
 
  - Developer Productivity
@@ -22,9 +22,16 @@ History ...
 	 - are they on the same technology stack / platform ?
  - Platform / Technology Stack 
    - .NET
-   - J
+   - Java
+   - Other
+   - Browser / JavaScript
+   - Mobile 
+  - Code first vs. Metadata first 
+ - Who's the client ?
+ -  Building an API for your own app ?
+ - 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTAyMjAwNCw4MTQ4NDMzNF19
+eyJoaXN0b3J5IjpbMTY1MzI0NTA4Myw4MTQ4NDMzNF19
 -->
