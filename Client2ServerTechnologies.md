@@ -109,6 +109,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNDI0NTY0LDE1OTY1NTE5ODMsLTU5OD
-AxOTI0OV19
+eyJoaXN0b3J5IjpbNTgwNDI0NTY0XX0=
 -->
