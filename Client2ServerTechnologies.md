@@ -33,14 +33,20 @@ How we exchange metadata ....
    - Building an API for 3th Party consumers ?
      - Custom
      - Generic
+  - Connected or Request/Response ?
+  - Sync vs Async ?
+  - Server side starts conversation ...
+
+Do not always use what Visual Studio
 
 ## WCF
 
  SOAP stack
- .wsdl
+ .wsdl / XSD
+ Visual Stuid
  
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzg4MjczMCw4MTQ4NDMzNF19
+eyJoaXN0b3J5IjpbLTE5MjMzNTk5MTksODE0ODQzMzRdfQ==
 -->
