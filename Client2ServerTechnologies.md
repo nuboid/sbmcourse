@@ -42,10 +42,15 @@ How we exchange metadata ....
 ## WCF
 
  SOAP stack
+ 
  .wsdl / XSD
+ 
  Visual Studio ... Add Service Reference ...
+ 
  Why not just share the Interface and use ClientBase<T>
+ 
 https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/generating-a-wcf-client-from-service-metadata
+ 
  Attempt for client side orchestrated transaction management.
  
 ## REST
@@ -109,5 +114,5 @@ https://github.com/reactiveui/refit
 
 https://anthonygiretti.com/2019/08/31/building-a-typed-httpclient-with-refit-in-asp-net-core-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNDI0NTY0XX0=
+eyJoaXN0b3J5IjpbLTE4OTkwMDAzMDJdfQ==
 -->
