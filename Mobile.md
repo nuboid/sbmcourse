@@ -11,6 +11,8 @@ Github :
 
 [https://github.com/dotnet-architecture/eShopOnContainers/tree/dev/src/Mobile](https://github.com/dotnet-architecture/eShopOnContainers/tree/dev/src/Mobile)
 
+Microsoft docs
+
 [https://docs.microsoft.com/en-us/xamarin/get-started/what-is-xamarin-forms](https://docs.microsoft.com/en-us/xamarin/get-started/what-is-xamarin-forms)
 
 [https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
@@ -25,5 +27,5 @@ Github :
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODgyOTA5NTVdfQ==
+eyJoaXN0b3J5IjpbLTcwMzgzODM2NF19
 -->
