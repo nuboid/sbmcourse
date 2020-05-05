@@ -24,6 +24,10 @@ Typical workflow
 	git commit -a -m "commitmessage"
 	git push origin
 
+
+Clone a specific branch
+
+    git clone -b Development https://github.com/aaa/bbb.git
 Checkout from a commit
    
     git checkout 78298273b50fe5be33d9596d6e7e9fa65d4f1895
@@ -47,5 +51,5 @@ Delete branches
 
 [https://tortoisegit.org/](https://tortoisegit.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTIzNDMwMDJdfQ==
+eyJoaXN0b3J5IjpbMTA5MDg4NzU4OV19
 -->
