@@ -6,7 +6,7 @@
 
 [https://github.com/SteveSandersonMS](https://github.com/SteveSandersonMS)
 
+[https://visualstudiomagazine.com/articles/2019/09/26/blazor-future.aspx](https://visualstudiomagazine.com/articles/2019/09/26/blazor-future.aspx)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjY0NTMwMywtMTc2NTM5OTYwNywxOT
-k2NjQ1MzAzXX0=
+eyJoaXN0b3J5IjpbNjA5NTA1MjkyXX0=
 -->
