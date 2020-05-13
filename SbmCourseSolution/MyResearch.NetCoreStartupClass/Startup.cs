@@ -36,6 +36,7 @@ namespace MyResearch.NetCoreStartupClass
             services.AddControllers();
             services.AddOurNeededStuff();
 
+            
 
             //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1
             services.AddOptions();
@@ -45,6 +46,7 @@ namespace MyResearch.NetCoreStartupClass
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -54,10 +56,11 @@ namespace MyResearch.NetCoreStartupClass
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             //app.Run(async (context) =>
             //{
+
             //    //Terminating middleware
             //    await context.Response.WriteAsync("my pipeline step");
             //});
@@ -76,7 +79,7 @@ namespace MyResearch.NetCoreStartupClass
 
             //app.Use(async (context, next) =>
             //{
-                
+
             //    await next();
             //});
 

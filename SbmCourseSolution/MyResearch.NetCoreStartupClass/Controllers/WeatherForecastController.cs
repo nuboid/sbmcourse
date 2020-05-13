@@ -40,6 +40,7 @@ namespace MyResearch.NetCoreStartupClass.Controllers
 
             var x = somethingWeNeed.DoingSomething("test");
 
+            var f1 = options.Value.Field1;
             _logger.LogInformation("WeatherForecastController");
         }
 

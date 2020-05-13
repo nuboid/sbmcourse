@@ -68,8 +68,9 @@ namespace MyResearch.Auth.WebApp.Controllers
                 Email = "x@y.com",
             };
             await _userManager.CreateAsync(user, passwordToTest);
-
             await _userManager.AddClaimsAsync(user, new List<Claim> { new Claim("MyType", "MyValue") });
+
+
             var r = await _signInManager.PasswordSignInAsync("KUCL", passwordToTest, false, false);
 
 
@@ -95,6 +96,7 @@ namespace MyResearch.Auth.WebApp.Controllers
         public async Task<IActionResult> Secret()
         {
 
+            
             var authResult = await _authorizationService.AuthorizeAsync(User, "MustHaveTheClaimAndTheCorrectValue");
             PeekIntoCookie();
 

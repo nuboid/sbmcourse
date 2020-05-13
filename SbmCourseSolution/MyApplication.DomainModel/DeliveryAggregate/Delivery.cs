@@ -12,11 +12,11 @@ namespace MyApplication.DomainModel.DeliveryAggregate
         public string ForDate { get; set; }
         public bool IsPlanned { get; set; }
 
-        private readonly List<DeliveryPart> _deliveryParts = new List<DeliveryPart>();
+        private readonly List<DeliveryPart2> _deliveryParts = new List<DeliveryPart2>();
 
-        public IEnumerable<DeliveryPart> DeliveryParts
+        public IEnumerable<DeliveryPart2> DeliveryParts
         {
-            get { return new ReadOnlyCollection<DeliveryPart>(_deliveryParts); }
+            get { return new ReadOnlyCollection<DeliveryPart2>(_deliveryParts); }
         }
 
         public static Delivery Create(string customerId, string deliveryAddressId, string date)
@@ -38,7 +38,7 @@ namespace MyApplication.DomainModel.DeliveryAggregate
         }
         public void AddDeliverPart(string deliveryId, double weight, double volume, List<string> productIds)
         {
-            _deliveryParts.Add(new DeliveryPart
+            _deliveryParts.Add(new DeliveryPart2
             {
                 Id = Guid.NewGuid().ToString(),
                 //ProductIds = new List<DeliveryPartProductId>(),

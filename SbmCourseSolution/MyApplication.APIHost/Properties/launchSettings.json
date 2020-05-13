@@ -2,7 +2,7 @@
   "profiles": {
     "MyApplication.APIHost": {
       "commandName": "Project",
-      "commandLineArgs": "http://localhost:9001;https://localhost:9001"
+      "commandLineArgs": "http://localhost:8001;https://localhost:8002"
     }
   }
 }

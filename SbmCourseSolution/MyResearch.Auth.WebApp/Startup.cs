@@ -59,7 +59,7 @@ namespace MyResearch.Auth.WebApp
             services.AddAuthorization(config =>
             {
                 config.AddPolicy("MustHaveTheClaim", polBuilder => polBuilder.RequireClaim("MyType"));
-                config.AddPolicy("MustHaveTheClaimAndTheCorrectValue", polBuilder => polBuilder.RequireClaim("MyType","MyValue"));
+                config.AddPolicy("MustHaveTheClaimAndTheCorrectValue", polBuilder => polBuilder.RequireClaim("MyType","xxxxxxxxx"));
             });
 
             services.AddControllersWithViews(config => {

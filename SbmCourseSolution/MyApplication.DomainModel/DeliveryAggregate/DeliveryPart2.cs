@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MyApplication.DomainModel.DeliveryAggregate
 {
-    public class DeliveryPart : BaseEntity
+    public class DeliveryPart2 : BaseEntity
     {
         public string DeliveryId { get; set; }
         public double Weight { get; set; }

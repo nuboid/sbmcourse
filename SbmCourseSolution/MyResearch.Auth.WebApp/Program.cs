@@ -14,12 +14,12 @@ namespace MyResearch.Auth.WebApp
     {
         public static void Main(string[] args)
         {
-            System.IO.File.Delete("IdentityDatabase.db");
-            using (var identityDbContext = new MyIdentityDBContext())
-            {
-                var ok = identityDbContext.Database.EnsureCreated();
+            //System.IO.File.Delete("IdentityDatabase.db");
+            //using (var identityDbContext = new MyIdentityDBContext())
+            //{
+            //    var ok = identityDbContext.Database.EnsureCreated();
 
-            };
+            //};
 
             CreateHostBuilder(args).Build().Run();
         }

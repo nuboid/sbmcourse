@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService2";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc SayHupledepup (HelloRequest2) returns (HelloReply);
+}
+
+service Cursus {
+  rpc Volg (Volg1) returns (Volg2);
+}
+
+message Volg1 {
+  string name = 1;
+}
+
+message Volg2 {
+  string name = 1;
+}
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloRequest2 {
+  string anderveld = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+    string message = 1;
+    string nogeenveld1 = 2;
+    string nogeenveld2 = 3;
+    string nogeenveld3 = 4;
+    string nogeenveld4 = 5;
+    string nogeenveld5 = 6;
+}

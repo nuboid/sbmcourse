@@ -18,7 +18,7 @@ namespace MyApplication.Infrastructure.EntityFramework
 
         //DeliveryAggregate
         public DbSet<Delivery> Deliveries { get; set; }
-        public DbSet<DeliveryPart> DeliveryParts { get; set; }
+        public DbSet<DeliveryPart2> DeliveryParts { get; set; }
         //
 
         //PlannedDeliveryAggregate

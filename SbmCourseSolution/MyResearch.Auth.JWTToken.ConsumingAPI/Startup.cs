@@ -47,13 +47,14 @@ namespace MyResearch.Auth.JWTToken.ConsumingAPI
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = fromIssuer,
                     ValidAudience = forAudience,
+                    
                     IssuerSigningKey = new SymmetricSecurityKey(keyAsBytes)
                 };
               
             });
 
 #if DEBUG
-            services.AddTransient<IAuthorizationHandler, DisableAuthorizationHandler<IAuthorizationRequirement>>();
+            //services.AddTransient<IAuthorizationHandler, DisableAuthorizationHandler<IAuthorizationRequirement>>();
 #endif
         }
 
@@ -63,7 +64,6 @@ namespace MyResearch.Auth.JWTToken.ConsumingAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
 
             app.UseHttpsRedirection();
 
