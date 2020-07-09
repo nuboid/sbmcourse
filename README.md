@@ -30,9 +30,14 @@
 
 ## Build
 
-See :
+Pipeline: [https://behind-the-buttons.visualstudio.com/Peripass/_build/definition?definitionId=63](https://behind-the-buttons.visualstudio.com/Peripass/_build/definition?definitionId=63)
+
+This pipeline builds both Android app and API.
+
+## Deploy to MS Appcenter
+
+Is done by releasepipeline : [https://behind-the-buttons.visualstudio.com/Peripass/_release?definitionId=16&_a=releases&view=mine](https://behind-the-buttons.visualstudio.com/Peripass/_release?definitionId=16&_a=releases&view=mine)
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEwNDQ3NzgsLTE2MTE4NjcxNDhdfQ
-==
+eyJoaXN0b3J5IjpbNjI1MDg1OTY0LC0xNjExODY3MTQ4XX0=
 -->
