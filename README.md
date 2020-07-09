@@ -12,6 +12,7 @@ This repo contains :
 * The API for supporing this App. 
 *This is a Backend For Frontend. The API will call controllers in  DAMHost.*
 
+- Test Applications as Winforms, they are here for development/testing purposes and do not make part of the realeases. 
 
 Remarks :
 
@@ -26,7 +27,9 @@ Remarks :
 * No database dependencies.
 
 * No Docker dependencies.
+
+## Build
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTkzMzQ0NCwtMTYxMTg2NzE0OF19
+eyJoaXN0b3J5IjpbMTcxOTQ2MjM1NiwtMTYxMTg2NzE0OF19
 -->
