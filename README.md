@@ -1,41 +1,19 @@
-# Architecting Microservices and cross platform apps in .NET Core 3.x on Azure
 
-Spring 2020 edition
-version : 15/04
+# README #
 
+This repo contains :
 
-[https://excalidraw.com/](https://excalidraw.com/)
+- The Mobile YardAssetManagementApp (also known as YAO, Yard Operator App).
 
-
-**Door de Corona-maatregelen zal op 18/03 de les online gegeven worden.
-Check aub de mail van SBM voor meer info en de link naar het online platform.**
-
-https://sbm.be/opleiding/it-pro/architecting-microservices-and-cross-platform-apps-in-net-core-3-x-on-azure
-
-### Git CLI is not installed ?
-
-[https://gitforwindows.org/](https://gitforwindows.org/)
-
-### Clone the solution to your PC
-
-open command prompt
-
-    git clone https://github.com/nuboid/sbmcourse.git   
-    cd sbmcourse
-    git branch -a
-    git checkout "dddsolutionpart2"
-
-open `SbmCourseSolution.sln` in Visual Studio
-##
- Code Share
-[https://codeshare.io/](https://codeshare.io/)
+   - UWP
+   - Android
+   - iOS  
 
 
 
-
----
-update this file with [https://stackedit.io/app#](https://stackedit.io/app#)
-
+* Clone this repo to a directory close to the root of your drive otherwise you could have issues with paths to files exceeded limits.
+* No database dependencies.
+* For building 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE4NjcxNDhdfQ==
+eyJoaXN0b3J5IjpbLTkwMTk4MTYzMiwtMTYxMTg2NzE0OF19
 -->
