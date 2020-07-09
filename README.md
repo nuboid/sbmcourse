@@ -1,7 +1,7 @@
 
 # README #
 
-This repo contains :
+##  Content
 
 - The Mobile YardAssetManagementApp (also known as YAO, Yard Operator App).
 
@@ -12,9 +12,9 @@ This repo contains :
 * The API for supporing this App. 
 *This is a Backend For Frontend. The API will call controllers in  DAMHost.*
 
-- Test Applications as Winforms, they are here for development/testing purposes and do not make part of the realeases. 
+- Some test applications as Winforms, they are here for development/testing purposes and do not make part of the realeases. 
 
-Remarks :
+## Development box requirements
 
 * Clone this repo to a directory close to the root of your drive otherwise you could have issues with paths to files exceeded limits.
 
@@ -29,7 +29,10 @@ Remarks :
 * No Docker dependencies.
 
 ## Build
+
+See :
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTQ2MjM1NiwtMTYxMTg2NzE0OF19
+eyJoaXN0b3J5IjpbLTE3NzEwNDQ3NzgsLTE2MTE4NjcxNDhdfQ
+==
 -->
