@@ -9,7 +9,8 @@ This repo contains :
    - Android
    - iOS
  
-The API 
+* The API for supporing this App. 
+*This is a Backend For Frontend. The API will call controllers in  DAMHost.*
 
 
 Remarks :
@@ -27,6 +28,5 @@ Remarks :
 * No Docker dependencies.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY2MDEzMDQsLTE2MTE4NjcxNDhdfQ
-==
+eyJoaXN0b3J5IjpbLTc5OTkzMzQ0NCwtMTYxMTg2NzE0OF19
 -->
